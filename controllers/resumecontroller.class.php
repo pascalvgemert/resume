@@ -28,7 +28,7 @@
 		
 		public function show($paParams = array())
 		{
-			$this->ioResumeService->load();
+			$this->ioResumeService->buildResume();
 		}
 		
 		/****** PRIVATE METHODS ******/

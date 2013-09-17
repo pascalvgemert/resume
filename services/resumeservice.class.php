@@ -29,7 +29,7 @@
 		
 		/****** PUBLIC METHODS ******/
 		
-		public function load()
+		public function buildResume()
 		{
 			$this->loadProfileInformation();
 			$this->loadAbilities();
