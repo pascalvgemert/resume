@@ -2,7 +2,7 @@
 	
 	/* LOAD DEPENDECIES */
 	require_once('models/standardmodel.class.php');
-	require_once('models/standarddto.class.php');
+	require_once('presenters/standarddto.class.php');
 	
 	class MainController
 	{

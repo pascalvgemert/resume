@@ -2,7 +2,7 @@
 
 	/* LOAD DEPENDENCIES */
 	require_once('models/profile.class.php');
-	require_once('models/skillscollection.class.php');
+	require_once('presenters/collections/skillscollection.class.php');
 	/*require_once('models/languagescollection.class.php');
 	require_once('models/toolscollection.class.php');
 	require_once('models/interestscollection.class.php');

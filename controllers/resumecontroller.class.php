@@ -1,7 +1,7 @@
 <?php
 
 	/* LOAD DEPENDENCIES */
-	require_once('models/resumeservice.class.php');
+	require_once('services/resumeservice.class.php');
 	
 	/**
 	 * The main resume contoller

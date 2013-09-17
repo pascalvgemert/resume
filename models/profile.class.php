@@ -1,7 +1,7 @@
 <?php
 
 	/* LOAD DEPENDECIES */
-	require_once('models/profiledto.class.php');
+	require_once('presenters/profiledto.class.php');
 	
 	/**
 	 * Profile Class which contains the profile information.

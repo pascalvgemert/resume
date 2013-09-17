@@ -1,7 +1,7 @@
 <?php
 
 	/* LOAD DEPENDECIES */
-	require_once('models/skilldto.class.php');
+	require_once('presenters/skilldto.class.php');
 	
 	/**
 	 * Skill Class which contains the skill information.
