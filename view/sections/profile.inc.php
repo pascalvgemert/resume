@@ -1,6 +1,6 @@
 <div id="profile" class="container">
 	<h2>Profile</h2>
-	<p class="lead">I&#039;m a ninja webdeveloper / online creative programmer</p>
+	<p class="lead">I&#039;m a ninja webdeveloper / creative programmer</p>
 	
 	<hr />
 	
