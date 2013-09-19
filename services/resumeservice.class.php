@@ -2,11 +2,13 @@
 
 	/* LOAD DEPENDENCIES */
 	require_once('models/profile.class.php');
+	require_once('presenters/collections/educationscollection.class.php');
+	require_once('presenters/collections/careerscollection.class.php');
 	require_once('presenters/collections/skillscollection.class.php');
-	/*require_once('models/languagescollection.class.php');
-	require_once('models/toolscollection.class.php');
-	require_once('models/interestscollection.class.php');
-	require_once('models/contact.class.php');*/
+	require_once('presenters/collections/languagescollection.class.php');
+	require_once('presenters/collections/toolscollection.class.php');
+	require_once('presenters/collections/interestscollection.class.php');
+	require_once('models/contact.class.php');
 	
 	/**
 	 * The main resume service
@@ -32,9 +34,10 @@
 		public function buildResume()
 		{
 			$this->loadProfileInformation();
+			$this->loadExperiences();
 			$this->loadAbilities();
-			//$this->loadInterests();
-			//$this->loadContactInformation();
+			$this->loadInterests();
+			$this->loadContactInformation();
 		}
 		
 		/****** PRIVATE METHODS ******/
@@ -46,16 +49,42 @@
 			$this->ioViewController->assign('profile', $loProfile->get()); // $loProfile->get() returns dto
 		}	
 		
+		private function loadExperiences()
+		{
+			$this->loadEducations();
+			$this->loadCareers();
+		}	
+		
 		private function loadAbilities()
 		{
 			$this->loadSkills();
-			//$this->loadLanguages();
-			//$this->loadTools();
+			$this->loadLanguages();
+			$this->loadTools();
 		}	
+		
+		private function loadEducations()
+		{
+			$loEducationsCollection = new EducationsCollection();
+			
+			$loEducationsCollection->sortByDate();
+			
+			$this->ioViewController->assign('educations', $loEducationsCollection->all());
+		}
+		
+		private function loadCareers()
+		{
+			$loCareersCollection = new CareersCollection();
+			
+			$loCareersCollection->sortByDate();
+			
+			$this->ioViewController->assign('careers', $loCareersCollection->all());
+		}
 		
 		private function loadSkills()
 		{
 			$loSkillsCollection = new SkillsCollection();
+			
+			$loSkillsCollection->sortByLevel();
 			
 			$this->ioViewController->assign('skills', $loSkillsCollection->all());
 		}	
@@ -63,6 +92,8 @@
 		private function loadLanguages()
 		{
 			$loLanguagesCollection = new LanguagesCollection();
+
+			$loLanguagesCollection->sortByLevel();
 			
 			$this->ioViewController->assign('languages', $loLanguagesCollection->all());
 		}	
@@ -71,12 +102,16 @@
 		{
 			$loToolsCollection = new ToolsCollection();
 			
+			$loToolsCollection->sortByLevel();
+			
 			$this->ioViewController->assign('tools', $loToolsCollection->all());
 		}	
 		
 		private function loadInterests()
 		{
-			$loInterestCollection = new InterestCollection();
+			$loInterestCollection = new InterestsCollection();
+			
+			$loInterestCollection->sortByName();
 			
 			$this->ioViewController->assign('interests', $loInterestCollection->all());
 		}	

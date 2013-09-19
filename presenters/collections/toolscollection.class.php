@@ -1,14 +1,14 @@
 <?php
 
 	/* LOAD DEPENDECIES */
-	require_once('models/skill.class.php');
+	require_once('models/tool.class.php');
 	
 	/**
-	 * SkillsCollection Class which contains the skills information.
+	 * ToolsCollection Class which contains the tool information.
 	 */
-	class SkillsCollection
+	class ToolsCollection
 	{
-		private $iaSkills = array();
+		private $iaTools = array();
 		
 		/**
 		 * Initalization of this class
@@ -22,12 +22,12 @@
 		
 		public function all()
 		{			
-			return $this->iaSkills;
+			return $this->iaTools;
 		}
 		
 		public function sortByLevel()
 		{
-			usort($this->iaSkills, function($a, $b)
+			usort($this->iaTools, function($a, $b)
 			{
 				if($a->level == $b->level)
 				{
@@ -40,13 +40,13 @@
 		
 		private function collect()
 		{
-			$laSkills = ORM::factory('skills');	
+			$laTools = ORM::factory('tools');	
 			
-			foreach($laSkills as $loSkill)
+			foreach($laTools as $loTool)
 			{
-				$loSkill = new Skill($loSkill);
+				$loTool = new Tool($loTool);
 				
-				$this->iaSkills[] = $loSkill->get();
+				$this->iaTools[] = $loTool->get();
 			}
 		}
 	}

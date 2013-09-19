@@ -5,7 +5,7 @@
         "last_name": "van Gemert",
         "date_of_birth": "1986-11-19",
         "place_of_birth": "'s-Hertogenbosch",
-        "biography": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio alias mollitia similique voluptas harum quaerat deserunt cum molestiae.",
+        "biography": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio alias mollitia similique voluptas harum quaerat deserunt cum molestiae. Aut pariatur recusandae et. Expedita laborum culpa cupiditate omnis at debitis.",
         "current_location": {
             "street": "Onderwijsboulevard",
             "housenumber": 580,
@@ -26,7 +26,7 @@
     "educations": [
         {
             "title": "Avans Highschool",
-            "specification": "Higher Informatics",
+            "specification": "Higher Informatics (Specialization: Multimedia)",
             "location": "'s-Hertogenbosch",
             "level": "Bachelor",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita laborum culpa cupiditate omnis at debitis.",
@@ -35,17 +35,17 @@
             "completed": true
         },
         {
-            "title": "Rodenborg",
+            "title": "Rodenborch",
             "specification": "Havo (Nature/Technics & Nature/Health)",
             "location": "Rosmalen",
-            "level": "Bachelor",
+            "level": "Highschool",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita laborum culpa cupiditate omnis at debitis.",
             "start_date": "1999-08-01",
             "end_date": "2004-06-01",
             "completed": true
         }
     ],
-    "experiences": [
+    "careers": [
         {
             "title": "Whoopaa",
             "specification": "Lead Developer",
@@ -114,204 +114,238 @@
     "skills": [
         {
             "title": "PHP",
-            "level": 9,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": ""
         },
         {
             "title": "MySQL",
-            "level": 9,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": ""
         },
         {
             "title": "HTML",
-            "level": 10,
+			"level": 5,
+            "level_detailed": 10,
             "endorsement": ""
         },
         {
             "title": "CSS",
-            "level": 9,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": ""
         },
         {
             "title": "Javascript",
-            "level": 9,
+			"level": 4,
+            "level_detailed": 9,
             "endorsement": ""
         },
         {
             "title": "JQuery",
-            "level": 10,
+			"level": 4,
+            "level_detailed": 10,
             "endorsement": ""
         },
         {
-            "title": "Less",
-            "level": 8,
+            "title": "LESS",
+			"level": 4,
+            "level_detailed": 8,
+            "endorsement": ""
+        },
+		{
+            "title": "SASS",
+			"level": 4,
+            "level_detailed": 8,
             "endorsement": ""
         },
         {
             "title": "JSON",
-            "level": 10,
+			"level": 5,
+            "level_detailed": 10,
             "endorsement": ""
         },
         {
             "title": "XML",
-            "level": 10,
+			"level": 5,
+            "level_detailed": 10,
             "endorsement": ""
         },
         {
-            "title": "Bootstrap 2.x",
-            "level": 9,
-            "endorsement": ""
-        },
-        {
-            "title": "Bootstrap 3.x",
-            "level": 8,
+            "title": "Bootstrap 2/3",
+			"level": 4,
+            "level_detailed": 8,
             "endorsement": ""
         },
         {
             "title": "Wordpress",
-            "level": 8,
+			"level": 4,
+            "level_detailed": 8,
             "endorsement": ""
         },
         {
             "title": "Object Orientated Programming",
-            "level": 8,
+			"level": 4,
+            "level_detailed": 8,
             "endorsement": ""
         },
         {
             "title": "MVC Pattern",
-            "level": 8,
+			"level": 4,
+            "level_detailed": 8,
             "endorsement": ""
         },
         {
             "title": "Singleton Pattern",
-            "level": 9,
+			"level": 4,
+            "level_detailed": 9,
             "endorsement": ""
         },
         {
             "title": "Method factory Pattern",
-            "level": 7,
+			"level": 4,
+            "level_detailed": 7,
             "endorsement": ""
         },
         {
             "title": "Command line",
-            "level": 5,
+			"level": 2,
+            "level_detailed": 5,
             "endorsement": "Basics only"
         },
         {
             "title": "UML",
-            "level": 8,
+			"level": 4,
+            "level_detailed": 8,
             "endorsement": ""
         }
     ],
     "languages": [
         {
             "title": "Dutch",
-            "level": 9,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": "Mother tongue"
         },
         {
             "title": "English",
-            "level": 9,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": "Daily use"
         },
         {
             "title": "German",
-            "level": 3,
+			"level": 2,
+            "level_detailed": 3,
             "endorsement": "Survivable"
         },
         {
             "title": "French",
-            "level": 2,
+			"level": 1,
+            "level_detailed": 2,
             "endorsement": "Un petit pue"
         }
     ],
     "tools": [
         {
             "title": "Notepad++",
-            "level": 9,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": "8 years"
         },
         {
             "title": "Filezilla",
-            "level": 9,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": "8 years"
         },
         {
             "title": "MS Office",
-            "level": 9,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": "10+ years"
         },
         {
             "title": "Sublime Text",
-            "level": 7,
+			"level": 4,
+            "level_detailed": 7,
             "endorsement": "2 years"
         },
         {
             "title": "Coda",
-            "level": 6,
+			"level": 3,
+            "level_detailed": 6,
             "endorsement": "1 year"
         },
         {
             "title": "Windows",
-            "level": 9,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": "10+ years"
         },
         {
             "title": "Mac",
-            "level": 8,
+			"level": 4,
+            "level_detailed": 8,
             "endorsement": "2 years"
         },
         {
             "title": "Firefox",
-            "level": 9,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": "8 years"
         },
         {
             "title": "Webkit browsers",
-            "level": 8,
+			"level": 5,
+            "level_detailed": 9,
             "endorsement": "6 years"
         },
         {
             "title": "Internet Explore 6+",
-            "level": 8,
+			"level": 4,
+            "level_detailed": 8,
             "endorsement": "8 years"
         },
         {
             "title": "Adobe Fireworks",
-            "level": 8,
+			"level": 4,
+            "level_detailed": 8,
             "endorsement": "8 years"
         },
         {
             "title": "Adobe Photoshop",
-            "level": 6,
+			"level": 3,
+            "level_detailed": 6,
             "endorsement": "6 years"
         }
     ],
     "interests": [
         {
             "title": "Sports",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut pariatur recusandae et.",
-			"image": "sports.jpg"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo voluptatum delectus illum non animi libero nesciunt saepe sequi deleniti itaque repudiandae veniam facere harum ipsa ut ducimus velit quibusdam provident.",
+			"image": "sports.png"
         },
         {
             "title": "Music",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut pariatur recusandae et.",
-			"image": "music.jpg"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo voluptatum delectus illum non animi libero nesciunt saepe sequi deleniti itaque repudiandae veniam facere harum ipsa ut ducimus velit quibusdam provident.",
+			"image": "music.png"
         },
         {
             "title": "My Cats",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut pariatur recusandae et.",
-			"image": "cats.jpg"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo voluptatum delectus illum non animi libero nesciunt saepe sequi deleniti itaque repudiandae veniam facere harum ipsa ut ducimus velit quibusdam provident.",
+			"image": "cats.png"
         },
         {
             "title": "Algorithms",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut pariatur recusandae et.",
-			"image": "algorithms.jpg"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo voluptatum delectus illum non animi libero nesciunt saepe sequi deleniti itaque repudiandae veniam facere harum ipsa ut ducimus velit quibusdam provident.",
+			"image": "algorithms.png"
         },
         {
             "title": "Travel",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut pariatur recusandae et.",
-			"image": "travel.jpg"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo voluptatum delectus illum non animi libero nesciunt saepe sequi deleniti itaque repudiandae veniam facere harum ipsa ut ducimus velit quibusdam provident.",
+			"image": "travel.png"
         }
     ]
 }

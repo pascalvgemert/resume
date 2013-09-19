@@ -107,17 +107,17 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #interests .interest-content { padding: 40px 0px; }
 
 #interests .row:hover .left img {
-	-webkit-transform: rotate(-20deg);
-	-moz-transform: rotate(-20deg);
-	-ms-transform: rotate(-20deg);
-	-o-transform: rotate(-20deg);
+	-webkit-transform: rotate(-12deg);
+	-moz-transform: rotate(-12deg);
+	-ms-transform: rotate(-12deg);
+	-o-transform: rotate(-12deg);
 }
 
 #interests .row:hover .right img {
-	-webkit-transform: rotate(20deg);
-	-moz-transform: rotate(20deg);
-	-ms-transform: rotate(20deg);
-	-o-transform: rotate(20deg);
+	-webkit-transform: rotate(12deg);
+	-moz-transform: rotate(12deg);
+	-ms-transform: rotate(12deg);
+	-o-transform: rotate(12deg);
 }
 
 #contact { padding-bottom: 200px; }

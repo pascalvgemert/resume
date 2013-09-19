@@ -1,14 +1,14 @@
 <?php
 
 	/* LOAD DEPENDECIES */
-	require_once('models/skill.class.php');
+	require_once('models/language.class.php');
 	
 	/**
-	 * SkillsCollection Class which contains the skills information.
+	 * LanguagesCollection Class which contains the language information.
 	 */
-	class SkillsCollection
+	class LanguagesCollection
 	{
-		private $iaSkills = array();
+		private $iaLanguages = array();
 		
 		/**
 		 * Initalization of this class
@@ -22,12 +22,12 @@
 		
 		public function all()
 		{			
-			return $this->iaSkills;
+			return $this->iaLanguages;
 		}
 		
 		public function sortByLevel()
 		{
-			usort($this->iaSkills, function($a, $b)
+			usort($this->iaLanguages, function($a, $b)
 			{
 				if($a->level == $b->level)
 				{
@@ -40,13 +40,13 @@
 		
 		private function collect()
 		{
-			$laSkills = ORM::factory('skills');	
+			$laLanguages = ORM::factory('languages');	
 			
-			foreach($laSkills as $loSkill)
+			foreach($laLanguages as $loLanguage)
 			{
-				$loSkill = new Skill($loSkill);
+				$loLanguage = new Language($loLanguage);
 				
-				$this->iaSkills[] = $loSkill->get();
+				$this->iaLanguages[] = $loLanguage->get();
 			}
 		}
 	}
