@@ -26,10 +26,26 @@ $(document).ready(function()
 		return false;
 	});
 	
+	$('a[href*=mailto]').on('click', function(e)
+	{
+		var lstrEmail = $(this).attr('href').replace('mailto:', '');
+		
+		lstrEmail = lstrEmail.split('').reverse().join('')
+		
+		$(this).attr('href', 'mailto:' + lstrEmail);
+	});
+	
 	$('.navbar li a').click(function(event) 
 	{
 		$('.navbar-collapse').removeClass('in').addClass('collapse');
 	});
+	
+	lstrHash = window.location.hash.replace('#/', '#');
+	
+	if($('a[href='+ lstrHash +']').length > 0)
+	{
+		$('a[href='+ lstrHash +']').trigger('click');
+	}
 	
 	lazyLoad($('.jumbotron'));
 });
@@ -44,7 +60,12 @@ $(window).on('resize', function()
 	lnStickyNavigation = $('.scroll-down').offset().top + 20;
 	$('.jumbotron').css({ height: ($(window).height()) +'px' });
 	
-});  	
+}); 
+
+$('#navbar-example').on('activate.bs.scrollspy', function() 
+{
+	window.location.hash = $('.nav .active a').attr('href').replace('#', '#/');
+});	
 
 function lazyLoad(poContainer)
 {

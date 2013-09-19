@@ -84,12 +84,13 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #experiences .experience .experience-details * { color: #22A39F; }
 #experiences .experience .experience-details .seperator { color: #BCBCBC; }
 
-#abilities ul > li { height: 30px; padding: 3px 0px; }
+#abilities ul > li { min-height: 30px; padding: 3px 0px; }
 #abilities ul > li:hover { background: #F2F2F2; }
+#abilities ul > li .ability-title { display: inline-block; width: 60%; }
 #abilities ul > li .ability-score { float: right; }
 #abilities ul > li .ability-score .glyphicon { 
 	color: #DFE0E0; 
-	font-size: 16px; 
+	font-size: 14px; 
 	 
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -98,7 +99,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 }
 #abilities ul > li .ability-score .glyphicon.filled { color: #22A39F; }
 
-#abilities ul > li:hover .ability-score .glyphicon { margin-left: 4px; } 
+#abilities ul > li:hover .ability-score .glyphicon { margin-left: 2px; } 
 
 #interests .left { float: left; }
 #interests .right { float: right; }

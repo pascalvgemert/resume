@@ -31,9 +31,11 @@
 				</a>
 			</li>
 			<li>
-				<a href="mailto:<?= $contact->email; ?>">
+				<a href="mailto:<?= strrev($contact->email); ?>">
 					<span class="icon icon-email"></span>
-					<?= $contact->email; ?>
+					<span style="unicode-bidi:bidi-override; direction: rtl;">
+						<?= strrev($contact->email); ?>
+					</span>
 				</a>
 			</li>
 		</ul>
