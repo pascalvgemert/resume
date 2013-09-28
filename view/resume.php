@@ -22,6 +22,9 @@
 		<link href="<?= VIEW_PATH; ?>css/bootstrap.min.css" rel="stylesheet" />
 		<link href="<?= VIEW_PATH; ?>style.css" rel="stylesheet" />
 		
+		<link rel="shortcut icon" href="<?= BASE; ?>favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="<?= BASE; ?>favicon.ico" type="image/x-icon" />
+		
 		<!--[if lt IE 9]>
 			<script src="<?= VIEW_PATH; ?>js/html5shiv.js"></script>
 			<script src="<?= VIEW_PATH; ?>js/respond.min.js"></script>
