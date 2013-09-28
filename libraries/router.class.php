@@ -54,11 +54,13 @@
 		
 		public function match($pstrRequestedUrl)
 		{
+			$lstrRequestedUrl = $this->extractParams($pstrRequestedUrl);
+			
 			foreach($this->iaRoutes as $loRoute)
 			{
-				if($loRoute->isMatch($pstrRequestedUrl, $this->iaActions))
+				if($loRoute->isMatch($lstrRequestedUrl, $this->iaActions))
 				{
-					$this->setParametersFromAction($pstrRequestedUrl, $this->iaActions);
+					$this->setParametersFromAction($lstrRequestedUrl, $this->iaActions);
 	
 					return $loRoute;
 				}
@@ -78,5 +80,22 @@
 					$this->iaParams[$lstrAction] = current($laArgumentKeys[1]);
 				}
 			}
+		}
+		
+		private function extractParams($pstrRequestedUrl)
+		{
+			$laUrlParts = parse_url($pstrRequestedUrl);
+			
+			if(@isset($laUrlParts['query']))
+			{
+				parse_str($laUrlParts['query'], $laParams);
+				
+				foreach($laParams as $lstrKey => $lstrValue)
+				{
+					$_GET[$lstrKey] = $lstrValue;
+				}
+			}
+			
+			return (@isset($laUrlParts['path'])) ? $laUrlParts['path'] : '/';
 		}
 	}

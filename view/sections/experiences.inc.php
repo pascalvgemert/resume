@@ -1,6 +1,6 @@
 <h2>Experiences</h2>
 <p class="lead">
-	&#147;Protons give an atom its identity, electrons its personality.&#148;<br />- Bill Bryson, A short history of nearly everything
+	&ldquo;Protons give an atom its identity, electrons its personality.&rdquo;<br />- Bill Bryson, A short history of nearly everything
 </p>
 
 <hr />

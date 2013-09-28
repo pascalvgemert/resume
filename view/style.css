@@ -149,7 +149,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	#interests .right { float: none; }
 	
 	#interests > * { text-align: center; }
-	#interests img { width: 50%; float: none !important; } 
+	#interests img { width: 50%; height: auto; float: none !important; } 
 	#interests .interest-content { padding: 20px 0px; }
 	
 	#contact { padding-bottom: 60px; }

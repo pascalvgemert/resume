@@ -1,6 +1,6 @@
 <h2>Abilities</h2>
 <p class="lead">
-	&#147;Life without knowledge is a death in disguise.&#148;<br />- Talib Kweli
+	&ldquo;Life without knowledge is death in disguise.&rdquo;<br />- Talib Kweli
 </p>
 
 <hr />

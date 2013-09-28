@@ -1,13 +1,16 @@
 <?php
 	
 	header('Content-Type: text/html; charset=utf-8');
-			
+	
+	ob_start("ob_gzhandler");
+	
 	/* LOAD CONFIG */
 	require_once('config.inc.php');
 	
 	/* DEPENDENCIES */
 	require_once('libraries/router.class.php');
 	require_once('libraries/orm.class.php');
+	require_once('libraries/helper.class.php');
 	
 	require_once('controllers/maincontroller.class.php');
 	require_once('controllers/viewcontroller.class.php');

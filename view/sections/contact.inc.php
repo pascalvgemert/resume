@@ -1,6 +1,6 @@
 <h2>Contact</h2>
 <p class="lead">
-	&#147;If I had asked people what they wanted, they would have said faster horses. &#148;<br />- Henry Ford
+	&ldquo;If I had asked people what they wanted, they would have said faster horses. &rdquo;<br />- Henry Ford
 </p>
 
 <hr />

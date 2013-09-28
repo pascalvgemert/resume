@@ -11,7 +11,7 @@
 		</p>
 	</div>
 	<div class="col-md-4 text-center">
-		<img src="<?= VIEW_PATH; ?>images/pascal_van_gemert.png" alt="Pascal van Gemert" />
+		<img src="<?= VIEW_PATH; ?>images/pascal_van_gemert.png" alt="Pascal van Gemert" width="246" height="246" />
 	</div>
 	<div class="col-md-4">
 		<h3>Details</h3>
@@ -19,7 +19,7 @@
 			<strong>Name:</strong><br />
 			<?= $profile->full_name; ?><br />
 			<strong>Age:</strong><br />
-			<?= $profile->date_of_birth; ?><br />
+			<?= Helper::calculateAge($profile->date_of_birth); ?> years<br />
 			<strong>Location:</strong><br />
 			<?= $profile->current_location->city; ?>, <?= $profile->current_location->country; ?>, <?= $profile->current_location->planet; ?>
 		</p>

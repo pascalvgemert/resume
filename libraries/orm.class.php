@@ -9,7 +9,7 @@
 		 * Initialization of the statis object 
 		 * @var object 
 		 */
-		private static $data_object = null;
+		private static $ioDataobject = null;
 
 		/**
 		 * Initalization of this class
@@ -23,9 +23,9 @@
 		 *
 		 * @return void
 		 */
-		static public function setData($data)
+		static public function setData($pstrData)
 		{
-			self::$data_object = @json_decode($data);
+			self::$ioDataobject = @json_decode($pstrData);
 		}
 		
 		/**
@@ -33,15 +33,13 @@
 		 *
 		 * @return object
 		 */
-		static public function factory($object_title)
+		static public function factory($pstrObjectTitle)
 		{
-			return self::getObject($object_title);
+			return self::getObject($pstrObjectTitle);
 		}
 		
-		private function getObject($object_title)
+		private function getObject($pstrObjectTitle)
 		{
-			return (@isset(self::$data_object->$object_title)) ? self::$data_object->$object_title : null;
+			return (@isset(self::$ioDataobject->$pstrObjectTitle)) ? self::$ioDataobject->$pstrObjectTitle : null;
 		}
 	}
-
-?>

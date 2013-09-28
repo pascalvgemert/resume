@@ -1,6 +1,6 @@
-$('body').ieDialog({
+/*$('body').ieDialog({
 	closable: false
-});  
+});  */
 
 var lnStickyNavigation;
 
@@ -45,6 +45,16 @@ $(document).ready(function()
 	if($('a[href='+ lstrHash +']').length > 0)
 	{
 		$('a[href='+ lstrHash +']').trigger('click');
+	}
+	
+	var loBrowserVersion = getBrowserAndVersion();
+	
+	if(loBrowserVersion.browser == 'Explorer' && loBrowserVersion.version < 8)
+	{ 
+		$('#upgrade-dialog').modal({
+			backdrop: 'static',
+			keyboard: false
+		});
 	}
 	
 	lazyLoad($('.jumbotron'));
@@ -92,3 +102,50 @@ function stickyNav()
 		$('body').removeClass('fixed');   
 	}  
 }
+
+function getBrowserAndVersion() 
+{
+	var laBrowserData = [
+		{
+			string: 		navigator.userAgent,
+			subString: 		'MSIE',
+			identity: 		'Explorer',
+			versionSearch: 	'MSIE'
+		}
+	];
+	
+	return {
+		browser: searchString(laBrowserData) || 'Modern Browser',
+		version: searchVersion(navigator.userAgent) || searchVersion(navigator.appVersion) || '0.0'
+	};
+}
+
+function searchString(data) 
+{
+	for (var i=0;i<data.length;i++)	
+	{
+		var dataString 	= data[i].string;
+		var dataProp 	= data[i].prop;
+		
+		this.versionSearchString = data[i].versionSearch || data[i].identity;
+		
+		if(dataString) 
+		{
+			if (dataString.indexOf(data[i].subString) != -1)
+			{
+				return data[i].identity;
+			}
+		}
+		else if(dataProp)
+		{
+			return data[i].identity;
+		}
+	}
+}
+	
+function searchVersion(dataString) 
+{
+	var index = dataString.indexOf(this.versionSearchString);
+	if (index == -1) return;
+	return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
+}	
