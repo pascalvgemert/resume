@@ -1,42 +1,31 @@
 <?php
 
+	namespace Libraries;
+	
 	/**
 	 * Singleton ORM Class, will handle all the object data received from mocked json
 	 */
 	class ORM 
 	{
-		/**
-		 * Initialization of the statis object 
-		 * @var object 
-		 */
 		private static $ioDataobject = null;
 
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct() {}
 		
-		/**
-		 * Setting the mocked data
-		 *
-		 * @return void
-		 */
+		/* PUBLIC METHODS */
+		
 		static public function setData($pstrData)
 		{
 			self::$ioDataobject = @json_decode($pstrData);
 		}
 		
-		/**
-		 * Factorizing static object of the chosen object
-		 *
-		 * @return object
-		 */
 		static public function factory($pstrObjectTitle)
 		{
 			return self::getObject($pstrObjectTitle);
 		}
+		
+		/* PRIVATE METHODS */
 		
 		private function getObject($pstrObjectTitle)
 		{

@@ -1,14 +1,12 @@
 <?php
 
+	namespace Libraries;
+	
 	/* LOAD DEPENDENCIES */
 	require_once('models/route.class.php');
 	
     /**
-	 * This services handles all routing 
-     * 
-	 * @author      Pascal van Gemert <pascal@pascalvangemert.nl>
-	 * @version     1.0 
-     * @package     Resume
+	 * This services handles all routing of the application
 	 */
 	
 	class Router 
@@ -19,7 +17,7 @@
 		private $iaRoutes			= array();
 		private $iaParams			= array();
 		
-		/****** CONSTRUCTOR ******/
+		/* CONSTRUCTOR */
 		
 		public function __construct() { }
 		
@@ -27,13 +25,13 @@
 		{
 			if(self::$Instance == NULL) 
 			{
-				self::$Instance = new Router();
+				self::$Instance = new \Libraries\Router();
 			}
 			
 			return self::$Instance;
 		}
 
-		/****** PUBLIC METHODS ******/
+		/* PUBLIC METHODS */
 		
 		public function action($pstrAction, $pstrValue)
 		{
@@ -42,7 +40,7 @@
 		
 		public function map($pstrRouteUrl, $pmTarget, $paFilters = array())
 		{
-			$loRoute = new Route($pstrRouteUrl, $pmTarget, $paFilters);
+			$loRoute = new \Models\Route($pstrRouteUrl, $pmTarget, $paFilters);
 			
 			array_push($this->iaRoutes, $loRoute); 
 		}
@@ -69,7 +67,7 @@
 			return null;
 		}
 		
-		/****** PRIVATE METHODS ******/
+		/* PRIVATE METHODS */
 		
 		private function setParametersFromAction($pstrRequestedUrl, $paActions)
 		{

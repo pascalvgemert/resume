@@ -1,5 +1,7 @@
 <?php
 
+	namespace Libraries;
+	
 	/**
 	 * Singleton Helper Class, will help the view do calculations and more
 	 */

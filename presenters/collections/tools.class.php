@@ -1,24 +1,27 @@
 <?php
 
+	namespace Presenters\Collections;
+	
+	use \Libraries\ORM as ORM;
+	
 	/* LOAD DEPENDECIES */
 	require_once('models/tool.class.php');
 	
 	/**
-	 * ToolsCollection Class which contains the tool information.
+	 * Tools Collection Class which contains the tool information.
 	 */
-	class ToolsCollection
+	class Tools
 	{
 		private $iaTools = array();
 		
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct()
 		{
 			$this->collect();
 		}
+		
+		/* PUBLIC METHODS */
 		
 		public function all()
 		{			
@@ -38,13 +41,15 @@
 			});
 		}
 		
+		/* PRIVATE METHODS */
+		
 		private function collect()
 		{
 			$laTools = ORM::factory('tools');	
 			
 			foreach($laTools as $loTool)
 			{
-				$loTool = new Tool($loTool);
+				$loTool = new \Models\Tool($loTool);
 				
 				$this->iaTools[] = $loTool->get();
 			}

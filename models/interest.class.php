@@ -1,25 +1,26 @@
 <?php
 
+	namespace Models;
+	
 	/* LOAD DEPENDECIES */
-	require_once('presenters/interestdto.class.php');
+	require_once('presenters/interest.class.php');
 	
 	/**
 	 * Interest Class which contains the interest information.
 	 */
-	class Interest extends StandardModel
+	class Interest extends BaseModel
 	{
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct($poInterest)
 		{
 			$this->extend($poInterest);	
 		}
 		
+		/* PUBLIC METHODS */
+			
 		public function get()
 		{
-			return new InterestDTO($this);
+			return new \Presenters\Interest($this);
 		}
 	}

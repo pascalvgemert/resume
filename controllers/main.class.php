@@ -1,20 +1,29 @@
 <?php
 	
-	/* LOAD DEPENDECIES */
-	require_once('models/standardmodel.class.php');
-	require_once('presenters/standarddto.class.php');
+	namespace Controllers;
 	
-	class MainController
+	use \Libraries\ORM as ORM;
+	use \Libraries\Router as Router;
+	
+	/* LOAD DEPENDECIES */
+	require_once('models/basemodel.class.php');
+	require_once('presenters/basedto.class.php');
+	
+	class Main
 	{
 		public $ioViewController;
 		
+		/* CONSTRUCTOR */
+		
 		public function __construct()
 		{
-			$this->ioViewController = new ViewController();
+			$this->ioViewController = new \Controllers\View();
 			
 			$this->loadData();
 			$this->initialize();
 		}
+		
+		/* PUBLIC METHODS */
 		
 		public function initialize()
 		{
@@ -27,13 +36,17 @@
 		
 		public function loadController($pstrController)
 		{
-			if(class_exists(ucfirst($pstrController)) || class_exists($pstrController)) 
+			$lstrController = "Controllers\\$pstrController";
+			
+			if(class_exists(ucfirst($lstrController)) || class_exists($lstrController)) 
 			{			
-				return new $pstrController($this);
+				return new $lstrController($this);
 			}
 			
-			return $this->importController($pstrController);
+			return $this->importController($lstrController);
 		}
+		
+		/* PRIVATE METHODS */
 		
 		private function loadData()
 		{
@@ -74,14 +87,14 @@
 		
 		private function importController($pstrController)
 		{	
-			if(file_exists(CONTROLLERS_INCLUDE_PATH.strtolower($pstrController).'.class.php'))
-			{ 
-				include_once(CONTROLLERS_INCLUDE_PATH.strtolower($pstrController).'.class.php');
+			$laControllerParts		= explode('\\', $pstrController);
+			$lstrControllerFilename = CONTROLLERS_INCLUDE_PATH.strtolower(end($laControllerParts)).'.class.php';
+			
+			@include_once($lstrControllerFilename);
 				
-				if(class_exists(ucfirst($pstrController)) || class_exists($pstrController)) 
-				{			
-					return new $pstrController($this);
-				}
+			if(class_exists(ucfirst($pstrController)) || class_exists($pstrController)) 
+			{			
+				return new $pstrController($this);
 			}
 
 			return null;

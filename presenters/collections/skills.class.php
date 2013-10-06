@@ -1,24 +1,27 @@
 <?php
 
+	namespace Presenters\Collections;
+	
+	use \Libraries\ORM as ORM;
+	
 	/* LOAD DEPENDECIES */
 	require_once('models/skill.class.php');
 	
 	/**
-	 * SkillsCollection Class which contains the skills information.
+	 * Skills Collection Class which contains the skills information.
 	 */
-	class SkillsCollection
+	class Skills
 	{
 		private $iaSkills = array();
 		
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct()
 		{
 			$this->collect();
 		}
+		
+		/* PUBLIC METHODS */
 		
 		public function all()
 		{			
@@ -38,13 +41,15 @@
 			});
 		}
 		
+		/* PRIVATE METHODS */
+		
 		private function collect()
 		{
 			$laSkills = ORM::factory('skills');	
 			
 			foreach($laSkills as $loSkill)
 			{
-				$loSkill = new Skill($loSkill);
+				$loSkill = new \Models\Skill($loSkill);
 				
 				$this->iaSkills[] = $loSkill->get();
 			}

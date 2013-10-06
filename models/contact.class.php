@@ -1,25 +1,28 @@
 <?php
 
+	namespace Models;
+	
+	use \Libraries\ORM as ORM;
+	
 	/* LOAD DEPENDECIES */
-	require_once('presenters/contactdto.class.php');
+	require_once('presenters/contact.class.php');
 	
 	/**
 	 * Contact Class which contains the contact information.
 	 */
-	class Contact extends StandardModel
+	class Contact extends BaseModel
 	{
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		 
 		public function __construct()
 		{
 			$this->extend(ORM::factory('contact_details'));	
 		}
 		
+		/* PUBLIC METHODS */
+			
 		public function get()
 		{
-			return new ContactDTO($this);
+			return new \Presenters\Contact($this);
 		}
 	}

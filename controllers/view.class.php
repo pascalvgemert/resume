@@ -1,6 +1,8 @@
 <?php
 	
-	class ViewController
+	namespace Controllers;
+
+	class View
 	{
 		private $iaVariables 			= array();
 		private $iaStatusCodes			= array(
@@ -14,10 +16,14 @@
 		);
 		private $istrNotFoundTemplate 	= '';
 		
+		/* CONSTRUCTOR */
+		
 		public function __construct()
 		{
 			$this->istrNotFoundTemplate = VIEW_INCLUDE_PATH . '404.php';
 		}
+		
+		/* PUBLIC METHODS */
 		
 		public function showTemplate($pstrTemplate)
 		{

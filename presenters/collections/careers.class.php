@@ -1,24 +1,27 @@
 <?php
 
+	namespace Presenters\Collections;
+	
+	use \Libraries\ORM as ORM;
+	
 	/* LOAD DEPENDECIES */
 	require_once('models/career.class.php'); 
 	
 	/**
-	 * CareersCollection Class which contains the career information.
+	 * Careers Collection Class which contains the career information.
 	 */
-	class CareersCollection
+	class Careers
 	{
 		private $iaCareers = array();
 		
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct()
 		{
 			$this->collect();
 		}
+		
+		/* PUBLIC METHODS */
 		
 		public function all()
 		{			
@@ -38,13 +41,15 @@
 			});*/
 		}
 		
+		/* PRIVATE METHODS */
+		
 		private function collect()
 		{
 			$laCareers = ORM::factory('careers');	
 			
 			foreach($laCareers as $loCareer)
 			{
-				$loCareer = new Career($loCareer);
+				$loCareer = new \Models\Career($loCareer);
 				
 				$this->iaCareers[] = $loCareer->get();
 			}

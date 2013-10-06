@@ -1,25 +1,26 @@
 <?php
 
+	namespace Models;
+	
 	/* LOAD DEPENDECIES */
-	require_once('presenters/skilldto.class.php');
+	require_once('presenters/skill.class.php');
 	
 	/**
 	 * Skill Class which contains the skill information.
 	 */
-	class Skill extends StandardModel
+	class Skill extends BaseModel
 	{
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct($poSkill)
 		{
 			$this->extend($poSkill);	
 		}
 		
+		/* PUBLIC METHODS */
+		
 		public function get()
 		{
-			return new SkillDTO($this);
+			return new \Presenters\Skill($this);
 		}
 	}

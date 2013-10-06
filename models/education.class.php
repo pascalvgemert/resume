@@ -1,25 +1,26 @@
 <?php
 
+	namespace Models;
+	
 	/* LOAD DEPENDECIES */
-	require_once('presenters/educationdto.class.php');
+	require_once('presenters/education.class.php');
 	
 	/**
 	 * Education Class which contains the education information.
 	 */
-	class Education extends StandardModel
+	class Education extends BaseModel
 	{
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct($poEducation)
 		{
 			$this->extend($poEducation);	
 		}
 		
+		/* PUBLIC METHODS */
+		
 		public function get()
 		{
-			return new EducationDTO($this);
+			return new \Presenters\Education($this);
 		}
 	}

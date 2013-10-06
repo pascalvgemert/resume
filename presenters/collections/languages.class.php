@@ -1,24 +1,27 @@
 <?php
 
+	namespace Presenters\Collections;
+	
+	use \Libraries\ORM as ORM;
+	
 	/* LOAD DEPENDECIES */
 	require_once('models/language.class.php');
 	
 	/**
-	 * LanguagesCollection Class which contains the language information.
+	 * Languages Collection Class which contains the language information.
 	 */
-	class LanguagesCollection
+	class Languages
 	{
 		private $iaLanguages = array();
 		
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct()
 		{
 			$this->collect();
 		}
+		
+		/* PUBLIC METHODS */
 		
 		public function all()
 		{			
@@ -38,13 +41,15 @@
 			});
 		}
 		
+		/* PRIVATE METHODS */
+		
 		private function collect()
 		{
 			$laLanguages = ORM::factory('languages');	
 			
 			foreach($laLanguages as $loLanguage)
 			{
-				$loLanguage = new Language($loLanguage);
+				$loLanguage = new \Models\Language($loLanguage);
 				
 				$this->iaLanguages[] = $loLanguage->get();
 			}

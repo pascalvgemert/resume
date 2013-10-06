@@ -1,21 +1,20 @@
 <?php
 	
+	namespace Presenters;
+	
 	/**
-	 * StandardModel Class is an extendable class which contains a default object functions
+	 * BaseModel Class is an extendable class which contains a default object functions
 	 */
-	class StandardDTO
+	class BaseDTO
 	{
-		/**
-		 * Initalization of this class
-		 *
-		 * @param object to extend
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
 		public function __construct($object)
 		{
 			$this->extend($object);
 		}
 		
+		/* PROTECTED METHODS */
+			
 		protected function extend($object) 
 		{
 			$object_variables = get_object_vars($object);

@@ -1,25 +1,26 @@
 <?php
 
+	namespace Models;
+	
 	/* LOAD DEPENDECIES */
-	require_once('presenters/languagedto.class.php');
+	require_once('presenters/language.class.php');
 	
 	/**
 	 * Language Class which contains the language information.
 	 */
-	class Language extends StandardModel
+	class Language extends BaseModel
 	{
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct($poLanguage)
 		{
 			$this->extend($poLanguage);	
 		}
 		
+		/* PUBLIC METHODS */
+		
 		public function get()
 		{
-			return new LanguageDTO($this);
+			return new \Presenters\Language($this);
 		}
 	}

@@ -1,24 +1,27 @@
 <?php
 
+	namespace Presenters\Collections;
+	
+	use \Libraries\ORM as ORM;
+	
 	/* LOAD DEPENDECIES */
 	require_once('models/interest.class.php');
 	
 	/**
-	 * InterestsCollection Class which contains the interest information.
+	 * Interests Collection Class which contains the interest information.
 	 */
-	class InterestsCollection
+	class Interests
 	{
 		private $iaInterests = array();
 		
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct()
 		{
 			$this->collect();
 		}
+		
+		/* PUBLIC METHODS */
 		
 		public function all()
 		{			
@@ -33,13 +36,15 @@
 			});
 		}
 		
+		/* PRIVATE METHODS */
+		
 		private function collect()
 		{
 			$laInterests = ORM::factory('interests');	
 			
 			foreach($laInterests as $loInterest)
 			{
-				$loInterest = new Interest($loInterest);
+				$loInterest = new \Models\Interest($loInterest);
 				
 				$this->iaInterests[] = $loInterest->get();
 			}

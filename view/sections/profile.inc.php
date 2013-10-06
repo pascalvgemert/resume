@@ -19,7 +19,7 @@
 			<strong>Name:</strong><br />
 			<?= $profile->full_name; ?><br />
 			<strong>Age:</strong><br />
-			<?= Helper::calculateAge($profile->date_of_birth); ?> years<br />
+			<?= $profile->age; ?> years<br />
 			<strong>Location:</strong><br />
 			<?= $profile->current_location->city; ?>, <?= $profile->current_location->country; ?>, <?= $profile->current_location->planet; ?>
 		</p>

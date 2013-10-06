@@ -1,12 +1,10 @@
 <?php
 
+	namespace Models;
+	
 	/**
 	 * This services handles all routing 
-     * 
-	 * @author      Pascal van Gemert <pascal@pascalvangemert.nl>
-	 * @version     1.0 
-     * @package     Resume
-	 */
+     */
 	
 	class Route
 	{
@@ -16,7 +14,7 @@
 		private $iaFilters		= array();
 		private $iaParams		= array();
 			
-		/****** CONSTRUCTOR ******/
+		/* CONSTRUCTOR */
 		
 		public function __construct($pstrRouteUrl, $pmTarget, $paFilters = array())
 		{
@@ -25,7 +23,7 @@
 			$this->setFilters($paFilters);
 		}
 		
-		/****** PUBLIC METHODS ******/
+		/* PUBLIC METHODS */
 		
 		public function isMatch($pstrRequestedUrl, $paActions = array())
 		{
@@ -90,7 +88,7 @@
 			return preg_replace_callback("/:(\w+)/", array(&$this, 'substituteFilter'), $this->istrRouteUrl).$this->getActionRegex($paActions);
 		}
 		
-		/****** PRIVATE METHODS ******/
+		/* PRIVATE METHODS */
 		
 		private function setParametersFromMatch($paMatches)
 		{
@@ -98,10 +96,8 @@
 
             if(preg_match_all("/:([\w-]+)/", $this->istrRouteUrl, $laArgumentKeys)) 
 			{
-                // grab array with matches
                 $laArgumentKeys = $laArgumentKeys[1];
 				
-                // loop trough parameter names, store matching value in $params array
                 foreach($laArgumentKeys as $lnKey => $lstrName) 
 				{
                     if(@isset($paMatches[$lnKey + 1]))

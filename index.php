@@ -12,11 +12,11 @@
 	require_once('libraries/orm.class.php');
 	require_once('libraries/helper.class.php');
 	
-	require_once('controllers/maincontroller.class.php');
-	require_once('controllers/viewcontroller.class.php');
+	require_once('controllers/main.class.php');
+	require_once('controllers/view.class.php');
 	
 	require_once('routes.inc.php');	
 	
 	/* MAIN CONTROLLER */
-	$loMainController = new MainController();
+	$loMainController = new \Controllers\Main();
 	

@@ -1,24 +1,27 @@
 <?php
 
+	namespace Presenters\Collections;
+	
+	use \Libraries\ORM as ORM;
+
 	/* LOAD DEPENDECIES */
 	require_once('models/education.class.php');
 	
 	/**
-	 * EducationsCollection Class which contains the education information.
+	 * Educations Collection Class which contains the education information.
 	 */
-	class EducationsCollection
+	class Educations
 	{
 		private $iaEducations = array();
 		
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct()
 		{
 			$this->collect();
 		}
+		
+		/* PUBLIC METHODS */
 		
 		public function all()
 		{			
@@ -38,13 +41,15 @@
 			});*/
 		}
 		
+		/* PRIVATE METHODS */
+		
 		private function collect()
 		{
 			$laEducations = ORM::factory('educations');	
 			
 			foreach($laEducations as $loEducation)
 			{
-				$loEducation = new Education($loEducation);
+				$loEducation = new \Models\Education($loEducation);
 				
 				$this->iaEducations[] = $loEducation->get();
 			}

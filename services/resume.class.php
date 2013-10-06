@@ -1,35 +1,33 @@
 <?php
 
+	namespace Services;
+	
 	/* LOAD DEPENDENCIES */
 	require_once('models/profile.class.php');
-	require_once('presenters/collections/educationscollection.class.php');
-	require_once('presenters/collections/careerscollection.class.php');
-	require_once('presenters/collections/skillscollection.class.php');
-	require_once('presenters/collections/languagescollection.class.php');
-	require_once('presenters/collections/toolscollection.class.php');
-	require_once('presenters/collections/interestscollection.class.php');
+	require_once('presenters/collections/educations.class.php');
+	require_once('presenters/collections/careers.class.php');
+	require_once('presenters/collections/skills.class.php');
+	require_once('presenters/collections/languages.class.php');
+	require_once('presenters/collections/tools.class.php');
+	require_once('presenters/collections/interests.class.php');
 	require_once('models/contact.class.php');
 	
 	/**
-	 * The main resume service
-     * 
-	 * @author      Pascal van Gemert <pascal@pascalvangemert.nl>
-	 * @version     1.0 
-     * @package     Resume
+	 * The main resume service 
 	 */
 	
-	class ResumeService
+	class Resume
 	{
 		private $ioViewController;
 			
-		/****** CONSTRUCTOR ******/
+		/* CONSTRUCTOR */
 		
 		public function __construct($poViewController)
 		{
 			$this->ioViewController = $poViewController;
 		}
 		
-		/****** PUBLIC METHODS ******/
+		/* PUBLIC METHODS */
 		
 		public function buildResume()
 		{
@@ -40,11 +38,11 @@
 			$this->loadContactInformation();
 		}
 		
-		/****** PRIVATE METHODS ******/
+		/* PRIVATE METHODS */
 		
 		private function loadProfileInformation()
 		{
-			$loProfile = new Profile();
+			$loProfile = new \Models\Profile();
 			
 			$this->ioViewController->assign('profile', $loProfile->get()); // $loProfile->get() returns dto
 		}	
@@ -64,7 +62,7 @@
 		
 		private function loadEducations()
 		{
-			$loEducationsCollection = new EducationsCollection();
+			$loEducationsCollection = new \Presenters\Collections\Educations();
 			
 			$loEducationsCollection->sortByDate();
 			
@@ -73,7 +71,7 @@
 		
 		private function loadCareers()
 		{
-			$loCareersCollection = new CareersCollection();
+			$loCareersCollection = new \Presenters\Collections\Careers();
 			
 			$loCareersCollection->sortByDate();
 			
@@ -82,7 +80,7 @@
 		
 		private function loadSkills()
 		{
-			$loSkillsCollection = new SkillsCollection();
+			$loSkillsCollection = new \Presenters\Collections\Skills();
 			
 			$loSkillsCollection->sortByLevel();
 			
@@ -91,7 +89,7 @@
 		
 		private function loadLanguages()
 		{
-			$loLanguagesCollection = new LanguagesCollection();
+			$loLanguagesCollection = new \Presenters\Collections\Languages();
 
 			$loLanguagesCollection->sortByLevel();
 			
@@ -100,7 +98,7 @@
 		
 		private function loadTools()
 		{
-			$loToolsCollection = new ToolsCollection();
+			$loToolsCollection = new \Presenters\Collections\Tools();
 			
 			$loToolsCollection->sortByLevel();
 			
@@ -109,7 +107,7 @@
 		
 		private function loadInterests()
 		{
-			$loInterestCollection = new InterestsCollection();
+			$loInterestCollection = new \Presenters\Collections\Interests();
 			
 			$loInterestCollection->sortByName();
 			
@@ -118,7 +116,7 @@
 		
 		private function loadContactInformation()
 		{
-			$loContact = new Contact();
+			$loContact = new \Models\Contact();
 			
 			$this->ioViewController->assign('contact', $loContact->get());
 		}	

@@ -1,25 +1,26 @@
 <?php
 
+	namespace Models;
+	
 	/* LOAD DEPENDECIES */
-	require_once('presenters/careerdto.class.php');
+	require_once('presenters/career.class.php');
 	
 	/**
 	 * Career Class which contains the education information.
 	 */
-	class Career extends StandardModel
+	class Career extends BaseModel
 	{
-		/**
-		 * Initalization of this class
-		 *
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct($poCareer)
 		{
 			$this->extend($poCareer);	
 		}
 		
+		/* PUBLIC METHODS */
+		
 		public function get()
 		{
-			return new CareerDTO($this);
+			return new \Presenters\Career($this);
 		}
 	}

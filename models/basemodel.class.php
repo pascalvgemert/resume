@@ -1,20 +1,20 @@
 <?php
 	
+	namespace Models;
+	
 	/**
-	 * StandardModel Class is an extendable class which contains a default object functions
+	 * BaseModel Class is an extendable class which contains a default object functions
 	 */
-	class StandardModel
+	class BaseModel
 	{
-		/**
-		 * Initalization of this class
-		 *
-		 * @param object to extend
-		 * @return void
-		 */
+		/* CONSTRUCTOR */
+		
 		public function __construct($object)
 		{
 			$this->extend($object);
 		}
+		
+		/* PROTECTED METHODS */
 		
 		protected function extend($object) 
 		{
