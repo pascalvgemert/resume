@@ -30,15 +30,7 @@
 		
 		public function sortByDate()
 		{
-			/*usort($this->iaEducations, function($a, $b)
-			{
-				if($a->level == $b->level)
-				{
-					return $a->title > $b->title ? 1 : -1;
-				}
-		
-				return ($a->level > $b->level) ? -1 : 1;
-			});*/
+			// TO DO
 		}
 		
 		/* PRIVATE METHODS */
