@@ -222,6 +222,24 @@
 			"level": 4,
             "level_detailed": 8,
             "endorsement": ""
+        },
+        {
+            "title": "SEO",
+			"level": 4,
+            "level_detailed": 8,
+            "endorsement": ""
+        },
+        {
+            "title": "Java",
+			"level": 4,
+            "level_detailed": 7,
+            "endorsement": ""
+        },
+        {
+            "title": "Ruby",
+			"level": 2,
+            "level_detailed": 3,
+            "endorsement": ""
         }
     ],
     "languages": [
