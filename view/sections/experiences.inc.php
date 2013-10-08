@@ -19,7 +19,7 @@
 			<p class="experience-period">
 				<?= date('M Y', strtotime($education->start_date)); ?>
 				- 
-				<?= (@isset($career->end_date)) ? date('M Y', strtotime($education->end_date)) : 'current'; ?>
+				<?= (@isset($education->end_date)) ? date('M Y', strtotime($education->end_date)) : 'current'; ?>
 			</p>
 		</div>
 		<div class="col-md-8">
