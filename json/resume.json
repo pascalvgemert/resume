@@ -240,6 +240,12 @@
 			"level": 2,
             "level_detailed": 3,
             "endorsement": ""
+        },
+        {
+            "title": "AngularJS",
+			"level": 2,
+            "level_detailed": 4,
+            "endorsement": ""
         }
     ],
     "languages": [
