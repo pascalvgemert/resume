@@ -5,7 +5,7 @@
         "last_name": "van Gemert",
         "date_of_birth": "1986-11-19",
         "place_of_birth": "'s-Hertogenbosch",
-        "biography": "I am an allround web developer. I am a senior programmer with good knowledge of front-end technics. I love structure and order and I also stand for quality. I love spending time on fixing little details or optimizing web apps. Also working in a team is what I like, you'll learn faster and more. As the saying says: 'two head are better than one'.",
+        "biography": "I am an allround web developer. I am a senior programmer with good knowledge of front-end technics. I love structure and order and I also stand for quality. I love spending time on fixing little details or optimizing web apps. Also working in a team is what I like, you'll learn faster and more. As the saying goes: 'two head are better than one'.",
         "current_location": {
             "street": "Onderwijsboulevard",
             "housenumber": 580,
@@ -377,7 +377,7 @@
         },
         {
             "title": "Travel",
-            "description": "When I was 19 I travelled by plane for the first time, and after that I was hooked. I went to the United States two times, Surinam, Greece, Malta, the Canary Islands and more. But as much as I love the sun, I also love going to the alps for some snowboarding.",
+            "description": "When I was 19 I traveled by plane for the first time, and after that I was hooked. I went to the United States two times, Surinam, Greece, Malta, the Canary Islands and more. But as much as I love the sun, I also love going to the alps for some snowboarding.",
 			"image": "travel.png"
         }
     ]
