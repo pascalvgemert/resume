@@ -128,6 +128,21 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #contact a .icon { float: left; margin-right: 20px; }
 #contact a:hover { opacity: 1; filter:alpha(opacity=100); text-decoration: none; }
 
+.opl {
+	position:absolute;
+	top:100px;
+	left:0px;
+	z-index:99999;
+}
+
+.opl a {
+	width:73px;
+	height:56px;
+	text-indent:-9999px;
+	display:block;
+	background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') no-repeat;
+}
+
 @media (max-width: 1200px) { 
 	#interests .interest-content { padding: 20px 0px; }
 }
