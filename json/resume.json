@@ -5,7 +5,7 @@
         "last_name": "van Gemert",
         "date_of_birth": "1986-11-19",
         "place_of_birth": "'s-Hertogenbosch",
-        "biography": "I am an allround web developer. I am a senior programmer with good knowledge of front-end technics. I love structure and order and I also stand for quality. I love spending time on fixing little details or optimizing web apps. Also working in a team is what I like, you'll learn faster and more. As the saying goes: 'two head are better than one'.",
+        "biography": "I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.",
         "current_location": {
             "street": "Onderwijsboulevard",
             "housenumber": 580,
@@ -51,7 +51,7 @@
             "specification": "Lead Developer",
             "location": "'s-Hertogenbosch",
             "level": "Fulltime",
-            "description": "Whoopaa is a startup that began as a social network, where users were able to separate their business- and personal social life. As this idea didn't exactly take off the way we expected it to, we changed the idea. We began a job matching platform, where Whoopaa became the place for job seekers to make an interactive CV enriched with certified tests. The place where companies can create job openings and efficiently find the right candidates needed a name as well, and was called HRMatches. I developed an own framework, which I improved in user experience and speed after the big idea change. I also developed the real time match algorithm as well as a lot of other helpfull algorithms. Whoopaa is my current full-time job.",
+            "description": "Whoopaa is a startup that began as a social network where users were able to separate their business- and personal social life. As this idea didn't exactly take off the way we expected it to, we changed the idea. We began a job matching platform, where Whoopaa became the place for job seekers to make an interactive CV enriched with certified tests. The place where companies can create job openings and efficiently find the right candidates needed a name as well, and was called HRMatches. I developed an own framework, which I improved in user experience and speed after the big idea change. I also developed the real time match algorithm as well as a lot of other helpful algorithms. Whoopaa is my current full-time job.",
             "start_date": "2011-04-01",
             "end_date": null,
 			"link": "http://www.whoopaa.com/"
@@ -61,7 +61,7 @@
             "specification": "Developer / Designer",
             "location": "Den Bosch",
             "level": "Freelance",
-            "description": "SOAP is a local hairdresser in 's-Hertogenbosch. I design, develope and manage their website. Every couple years I re-design their site and I recently updated their CMS to Wordpress, combined with a custom made Bootstrap theme - to make it completely responsive. ",
+            "description": "SOAP is a local hairdresser in 's-Hertogenbosch. I design, develop and manage their website. Every couple of years I re-design their site and I recently updated their CMS to Wordpress, combined with a custom made Bootstrap theme to make it completely responsive. ",
             "start_date": "2007-08-01",
             "end_date": null,
 			"link": "http://www.soaphair.nl/"
@@ -71,7 +71,7 @@
             "specification": "Lead Developer",
             "location": "Eindhoven / 's-Hertogenbosch",
             "level": "Fulltime",
-            "description": "Right after I graduated, I started working for C2K: a full service internet agency. I developed a homemade CMS, CRM and e-mail marketing system. The CMS was used for a dozens of clients, as well as the e-mail marketing system. I also did a lot of custom made web sites/applications. Later on I also developed Layars like: Conquar (a digital adaption of the board game of Risk), Gowalla (based on Gowalla's API). C2K no longer exists.",
+            "description": "Right after I graduated, I started working for C2K: a full service internet agency. I developed a homemade CMS, CRM and e-mail marketing system. The CMS was used for a dozens of clients, as well as the e-mail marketing system. I also did a lot of custom made web sites/applications. Later on I also developed Layars like: Conquar (a digital adaption of the board game of Risk) and Gowalla (based on Gowalla's API). C2K no longer exists.",
             "start_date": "2008-09-01",
             "end_date": "2011-03-01"
         },
@@ -80,7 +80,7 @@
             "specification": "ICT Consultant",
             "location": "Amsterdam",
             "level": "Graduate Internship",
-            "description": "My second internship and the place I eventually graduated, was at Davinci. I investigated new web-technologies they could possibly use to improve the front-end of their java-based CRM system. I, amongst other technologies, compared Adobe Flex, Silverlight, Ruby on Rails to each other, to find out which could work best for the company. Based on the results of my research, the company eventually decided to use the ZK Framework.",
+            "description": "My second internship and the place I eventually graduated, was at Davinci. I investigated new web-technologies they could possibly use to improve the front-end of their java-based CRM system. I compared technologies such as Adobe Flex, Silverlight, Ruby on Rails together, to find out which could work best for the company. Based on the results of my research, the company eventually decided to use the ZK Framework.",
             "start_date": "2008-02-01",
             "end_date": "2008-07-01",
 			"link": "http://www.davincigroep.nl/"
@@ -100,7 +100,7 @@
             "specification": "PHP Developer",
             "location": "Eindhoven",
             "level": "Part-time",
-            "description": "After my internship ended I was asked to stay as part-time employee. Goomla became partner of the year of Bol.com. In october 2007 Goomla was sold to Daisycon.",
+            "description": "After my internship ended I was asked to stay as part-time employee. Goomla became partner of the year of Bol.com. In October 2007 Goomla was sold to Daisycon.",
             "start_date": "2007-01-01",
             "end_date": "2007-09-01" 
         },
@@ -271,7 +271,7 @@
             "title": "French",
 			"level": 1,
             "level_detailed": 2,
-            "endorsement": "Un petit pue"
+            "endorsement": "Un petit peu"
         }
     ],
     "tools": [
@@ -368,7 +368,7 @@
         },
         {
             "title": "Music",
-            "description": "I can listen to music all day. I have a varied taste in music and I listen to it at work, during sports, riding my bike, on the train... I play guitar myself and would love to own a drum-kit some day.",
+            "description": "I can listen to music all day. I have a varied taste of music and I listen to it at work, during sports, riding my bike, on the train... I play guitar myself and would love to own a drum-kit some day.",
 			"image": "music.png"
         },
         {
@@ -378,12 +378,12 @@
         },
         {
             "title": "Algorithms",
-            "description": "I love solving riddles and problems and building stuff from scratch. My strong suit is that I don't give up without a fight. When trying to find the solution to a problem, I will not quit until I do. The satisfaction I get from solving a hurdle can really make my day.",
+            "description": "I love solving riddles and problems and building stuff from scratch. My strong suit is that I don't give up without a fight. When trying to find the solution to a problem, I will not quit until I find at least one. The satisfaction I get from solving a problem can really make my day.",
 			"image": "algorithms.png"
         },
         {
             "title": "Travel",
-            "description": "When I was 19 I traveled by plane for the first time, and after that I was hooked. I went to the United States two times, Surinam, Greece, Malta, the Canary Islands and more. But as much as I love the sun, I also love going to the alps for some snowboarding.",
+            "description": "When I was 19 I traveled by plane for the first time, and after that I was hooked. I went to the United States twice, Surinam, Greece, Malta, the Canary Islands and more. But as much as I love the sun, I also love going to the Alps for some snowboarding.",
 			"image": "travel.png"
         }
     ]
