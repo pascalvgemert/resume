@@ -53,6 +53,11 @@
 	
 </div>
 
+<div class="text-center project-referal">
+	<p>This project is build on a custom made PHP framework.</p>
+	<a href="https://github.com/pascalvgemert/resume" class="btn btn-primary" target="_blank">See project on Github</a>
+</div>
+
 <hr />
 
 <h3>Languages</h3>
