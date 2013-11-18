@@ -64,6 +64,10 @@
 			$current_index  = (@isset($_GET['header']) && is_numeric($_GET['header'])) ? intval($_GET['header']) : date('d') % count($header_images); // $_GET['header'] overwrites current header
 			$current_header = (@isset($header_images[$current_index])) ? $header_images[$current_index] : current($header_images);
 		
+			if(date('d-m') == '19-11')
+			{
+				$current_header = array('source' => VIEW_PATH.'images/birthday_animation.gif', 'position' => 'center center');
+			}
 		?>
 	
 		<div id="top" class="jumbotron" data-src="<?= $current_header['source']; ?>" data-position="<?= $current_header['position']; ?>">

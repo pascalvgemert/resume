@@ -59,8 +59,15 @@ FileETag None
 php_value zlib.output_compression 16386
 </ifmodule>
 
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
+
+RewriteEngine on
+# Options +FollowSymlinks
+RewriteCond %{HTTP_REFERER} http://54.238.131.230 [NC]
+RewriteRule .* - [F]
+
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
