@@ -1,15 +1,15 @@
 {
     "profile": {
         "first_name": "Pascal",
-        "middle_names": "Antonius Maria",
+        "middle_names": "",
         "last_name": "van Gemert",
         "date_of_birth": "1986-11-19",
         "place_of_birth": "'s-Hertogenbosch",
         "biography": "I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.",
         "current_location": {
-            "street": "Onderwijsboulevard",
-            "housenumber": 580,
-            "zipcode": "5223 DN",
+            "street": "********",
+            "housenumber": 0,
+            "zipcode": "********",
             "city": "'s-Hertogenbosch",
             "country": "The Netherlands",
             "planet": "Earth"
@@ -17,7 +17,7 @@
     },
     "contact_details": {
         "email": "pascal@pascalvangemert.nl",
-        "phone": "+31(0)6 23 21 90 04",
+        "phone": "********",
         "skype": "pascalvgemert",
         "website": "http://pascalvangemert.nl/",
         "twitter": "http://twitter.com/pascalvgemert",
