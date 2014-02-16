@@ -57,6 +57,16 @@
 			"link": "http://www.whoopaa.com/"
         },
         {
+            "title": "'t Oetelspel",
+            "specification": "Developer",
+            "location": "'s-Hertogenbosch",
+            "level": "Own project",
+            "description": "Create a local game of the annual festival 'Carnaval'. Design was made by friends of my, Mals (www.studiomals.com). It went a bit viral the first day, with over 8000 games played!",
+            "start_date": "2014-01-01",
+            "end_date": null,
+			"link": "http://www.oetelspel.nl/"
+        },
+        {
             "title": "SOAP - Independent Hair Designers",
             "specification": "Developer / Designer",
             "location": "Den Bosch",
