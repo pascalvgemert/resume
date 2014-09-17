@@ -68,6 +68,9 @@ RewriteEngine on
 RewriteCond %{HTTP_REFERER} http://54.238.131.230 [NC]
 RewriteRule .* - [F]
 
+RewriteCond %{HTTP_HOST} ^pascalvangemert.nl$
+RewriteRule (.*) http://www.pascalvangemert.nl/$1 [R=301,L]
+
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
