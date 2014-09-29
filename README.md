@@ -1,8 +1,8 @@
 resume
 ======
 
-An oversized application for showing off some of my coding skills
+A framework for building an electronic resume / CV / home page
 
 ### See wesbite in action
 
-[http://pascalvangemert.nl/](http://pascalvangemert.nl/?ref=github)
+[http://chris.funderburg.me/](http://chris.funderburg.me/?ref=github)

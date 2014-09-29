@@ -1,5 +1,11 @@
--- Version 1 --
+-- Planned --
+* Fix my lost lightboxes that displayed the google maps nicely.
+* Give Pascal credit for his framework in a clean way.
 
+-- Version 1.1  --
+* Update README.md for Github
+
+-- Version 1 --
 * switched to a usable json configuration.
 * Modified robots.txt in a possibly vain attempt to block dodgy robots.
 * "De-Mac'd" a few files by giving them a newline at the end of the file.
