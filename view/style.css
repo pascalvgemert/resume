@@ -1,6 +1,17 @@
 html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100%; }
 body { background: #F3EFE0; font-size: 15px; line-height: 1.64; }
 
+audio {width: 220px; height:20px;}
+#footer {
+    position: fixed;
+    bottom: 5px; 
+    left: 5px;
+    z-index: 7;
+    width: 100%;
+}
+
+#legend { color: #666666 !important; font-family: 'Eagle Lake', cursive; font-size: 16px; text-align: center; 	text-shadow: 1px 1px #111111;}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px; }
 h1,h4 { font-weight: 700; margin-bottom: 10px; }
 h2,h3 { font-weight: 300; color: #22A39F; }
@@ -19,11 +30,13 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .btn-primary { background-color: #22A39F; border-color: #1c8784; }
 .btn-primary:hover { background-color: #1c8784;  border-color: #1c8784; }
 
-.icon { display: inline-block; background: url(images/sm_icon_sprite.png) no-repeat; height: 32px; width: 32px; }
-.icon.icon-twitter { background-position: 0px 0px; }
-.icon.icon-linkedin { background-position: 0px -32px; }
-.icon.icon-skype { background-position: 0px -64px; }
-.icon.icon-email { background-position: 0px -96px; }
+.icon { display: inline-block; background: url(images/socialmediacsspriteiconset.png) no-repeat; height: 32px; width: 32px; }
+.icon.icon-twitter { background-position: -126px -4px; }
+.icon.icon-ello { background-position: -126px -78px; }
+.icon.icon-linkedin { background-position: -331px -3px; }
+.icon.icon-skype { background-position: -290px -3px; }
+.icon.icon-facebook { background-position: -85px -3px; }
+.icon.icon-email { background-position: -372px -115px; }
 
 .jumbotron {
 	background: no-repeat center right fixed; /* url(images/background.jpg) */

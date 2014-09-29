@@ -1,400 +1,217 @@
 {
     "profile": {
-        "first_name": "Pascal",
+        "first_name": "Chris",
         "middle_names": "",
-        "last_name": "van Gemert",
-        "date_of_birth": "1986-11-19",
-        "place_of_birth": "'s-Hertogenbosch",
-        "biography": "I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.",
+        "last_name": "Funderburg",
+        "date_of_birth": "1973-03-26",
+        "place_of_birth": "Graham, Texas, USA",
+        "relationships": "Married for 20 years with 2 daughters (18 and 19)",
+        "biography": "Howdy. I'm a Texan guy living in the United Kingdom now for over 18 years. I currently work as an Infrastructure and deployment manager for a company called <a href=\"http://cognitoIQ.com\" target=\"_blank\">Cognito</a> and I volunteer as a trustee and webmaster of <a href=\"http://druidnetwork.org\" target=\"_blank\">The Druid Network</a> - a registered charity in English and Wales. All the while juggling coursework for an <a href=\"http://www.open.ac.uk/courses/qualifications/q72\" target=\"_blank\">Open University degree</a>.",
         "current_location": {
             "street": "********",
             "housenumber": 0,
             "zipcode": "********",
-            "city": "'s-Hertogenbosch",
-            "country": "The Netherlands",
+            "city": "<a data-featherlight=\"ajax\" href=\"https://www.google.co.uk/maps/place/Newbury,+West+Berkshire/@51.4063625,-1.2983735,3484m/data=!3m1!1e3!4m2!3m1!1s0x487402002f595ba9:0xc6646baff4a75c50?hl=en\" target=\"_blank\">Newbury",
+            "country": "United Kingdom</a>",
+            "planet": "Earth"
+        },
+        "home_town_location": {
+            "street": "********",
+            "housenumber": 0,
+            "zipcode": "********",
+            "city": "<a class=\"fancybox-media\" href=\"https://www.google.co.uk/maps/place/Odessa,+TX,+USA/@31.849892,-102.4755406,12885m/data=!3m1!1e3!4m2!3m1!1s0x86fbc96a39137cf9:0x1625ab3454615f46?hl=en\" target=\"_blank\">Odessa, Texas",
+            "country": "USA</a>",
             "planet": "Earth"
         }
     },
     "contact_details": {
-        "email": "pascal@pascalvangemert.nl",
+        "email": "chris@funderburg.me",
         "phone": "********",
-        "skype": "pascalvgemert",
-        "website": "http://pascalvangemert.nl/",
-        "twitter": "http://twitter.com/pascalvgemert",
-        "linkedin": "http://linkedin.nl/in/pascalvgemert/"
+        "skype": "funderbc",
+        "website": "http://chris.funderburg.me/",
+        "twitter": "http://twitter.com/TheSoundODrums",
+        "facebook": "https://www.facebook.com/bocan",
+        "ello": "https://ello.co/bocan",
+        "linkedin": "http://uk.linkedin.com/in/bocan/"
     },
     "educations": [
         {
-            "title": "Avans Highschool",
-            "specification": "Computer Science (Specialization: Multimedia)",
-            "location": "'s-Hertogenbosch",
-            "level": "Bachelor",
-            "description": "The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.",
-            "start_date": "2004-08-01",
-            "end_date": "2008-06-01",
-            "completed": true
+            "title": "Open University",
+            "specification": "Environmental Management and Technology</a>",
+            "location": "Distance Learning assessed by coursework and supervised exams",
+            "level": "<a href=\"http://www.open.ac.uk/courses/qualifications/q72\" target=\"_blank\">BSc (Honours)",
+            "description": "<b>Modules:</b><br /><ul><li>Environment: journeys through a changing world (U116)</li><li>Introducing the social sciences - part one (DD131)</li><li>Introducing the social sciences - part two (DD132)</li><li>Exploring Science (S104)</li><li>Energy and sustainability (T213)</li><li>Environmental management 1 (T219) - <i>In Progress</i></li></ul>People often ask why I'm trying for this degree and that question always catches me off guard because I really don't have a good answer. I do have a deep and abiding interest in the topic.  And yes, it may help me go for jobs in the future whether they're environmentally related or not. Perhaps I might even take a totally different career path someday. The guilty truth of the matter is that I'm mostly doing it for is the pure fun of learning new things, keeping my mind ticking, and the sheer adventure.",
+            "start_date": "2011-10-01",
+            "end_date": "2018-04-01",
+            "completed": false
         },
         {
-            "title": "Rodenborch",
-            "specification": "Havo (Nature/Technics & Nature/Health)",
-            "location": "Rosmalen",
-            "level": "Highschool",
-            "description": "I graduated highschool, where I enjoyed doing science, math, biology and arts. I realized in my third year of school that I wanted to do something with websites, and so I started making small flash/actionscript applications.",
-            "start_date": "1999-08-01",
-            "end_date": "2004-06-01",
+            "title": "Texas State Technical College",
+            "specification": "Information Technology",
+            "location": "Sweetwater, Texas, USA",
+            "level": "Further Education",
+            "description": "A year of courses including Cobol and Pascal programming, operating systems, etc.",
+            "start_date": "1991-01-01",
+            "end_date": "1992-01-01",
             "completed": true
         }
     ],
     "careers": [
         {
-            "title": "Whoopaa / HRMatches",
-            "specification": "Lead Developer",
-            "location": "'s-Hertogenbosch",
+            "title": "Cognito",
+            "specification": "Infrastructure and Deployment Manager",
+            "location": "Newbury, Berkshire, United Kingdom",
             "level": "Fulltime",
-            "description": "Whoopaa is a startup that began as a social network where users were able to separate their business- and personal social life. As this idea didn't exactly take off the way we expected it to, we changed the idea. We began a job matching platform, where Whoopaa became the place for job seekers to make an interactive CV enriched with certified tests. The place where companies can create job openings and efficiently find the right candidates needed a name as well, and was called HRMatches. I developed an own framework, which I improved in user experience and speed after the big idea change. I also developed the real time match algorithm as well as a lot of other helpful algorithms. Whoopaa is my current full-time job.",
-            "start_date": "2011-04-01",
+            "description": "Managing the Service Operations team, I'm responsible for: deploying and maintaining networks, server infrastructure, platforms, and software applications for new and existing projects; collaborating closely with both the DevOps and Change Management teams to streamline deployments and safeguard operational integrity; providing third-line support for the entire infrastructure, platform and software estate; and providing expertise in monitoring and tuning of: Operating systems, JBoss, Tomcat, VMWare ESXi, Informix, etc.",
+            "start_date": "2011-05-01",
             "end_date": null,
-			"link": "http://www.whoopaa.com/"
+			"link": "http://www.cognitoIQ.com/"
         },
         {
-            "title": "'t Oetelspel",
-            "specification": "Developer",
-            "location": "'s-Hertogenbosch",
-            "level": "Own project",
-            "description": "Create a local game of the annual festival 'Carnaval'. Design was made by friends of my, Mals (www.studiomals.com). It went a bit viral the first day, with over 8000 games played!",
-            "start_date": "2014-01-01",
+            "title": "The Druid Network",
+            "specification": "Trustee and Webmaster",
+            "location": "England and Wales",
+            "level": "Volunteer",
+            "description": "The Druid Network is a registered charity in England and Wales (1138265) and I'm one of the volunteer trustees that run the day to day operations. I'm also the webmaster and look after both the former Drupal powered site and the new Wordpress powered public site and ELGG powered private user forum. ",
+            "start_date": "2008-01-01",
             "end_date": null,
-			"link": "http://www.oetelspel.nl/"
+			"link": "http://druidnetwork.org/"
         },
         {
-            "title": "SOAP - Independent Hair Designers",
-            "specification": "Developer / Designer",
-            "location": "'s-Hertogenbosch",
-            "level": "Freelance",
-            "description": "SOAP is a local hairdresser in 's-Hertogenbosch. I design, develop and manage their website. Every couple of years I re-design their site and I recently updated their CMS to Wordpress, combined with a custom made Bootstrap theme to make it completely responsive. ",
-            "start_date": "2007-08-01",
-            "end_date": null,
-			"link": "http://www.soaphair.nl/"
-        },
-        {
-            "title": "C2K internet solutions",
-            "specification": "Lead Developer",
-            "location": "Eindhoven / 's-Hertogenbosch",
-            "level": "Fulltime",
-            "description": "Right after I graduated, I started working for C2K: a full service internet agency. I developed a homemade CMS, CRM and e-mail marketing system. The CMS was used for a dozens of clients, as well as the e-mail marketing system. I also did a lot of custom made web sites/applications. Later on I also developed Layars like: Conquar (a digital adaption of the board game of Risk) and Gowalla (based on Gowalla's API). C2K no longer exists.",
-            "start_date": "2008-09-01",
+            "title": "Nuance Communications",
+            "specification": "NOC Incident Manager",
+            "location": "Marlow, Berkshire, United Kingdom",
+            "level": "12 Hour Shift Worker",
+            "description": "Here my primary role was as an Incident manager - a senior Linux engineer monitoring and supporting the entire operational services of SpinVox and Nuance for over 30 enterprise customers and thousands of individual customers.",
+            "start_date": "2009-12-01",
             "end_date": "2011-03-01"
         },
         {
-            "title": "Davinci Advies Groep",
-            "specification": "ICT Consultant",
-            "location": "Amsterdam",
-            "level": "Graduate Internship",
-            "description": "My second internship and the place I eventually graduated, was at Davinci. I investigated new web-technologies they could possibly use to improve the front-end of their java-based CRM system. I compared technologies such as Adobe Flex, Silverlight, Ruby on Rails together, to find out which could work best for the company. Based on the results of my research, the company eventually decided to use the ZK Framework.",
-            "start_date": "2008-02-01",
-            "end_date": "2008-07-01",
-			"link": "http://www.davincigroep.nl/"
+            "title": "SpinVox",
+            "specification": "Infrastructure and Deployment Manager",
+            "location": "Maidenhead and Marlow, Berkshire, United Kingdom",
+            "level": "Fulltime",
+            "description": "In June 2008 I was given the opportunity for promotion to Infrastructure and Deployment Manager. In this role I managed 6 system administrators, 2 storage managers, and 3 Informix DBAs, the release team leader, and also the testing team leader. Along with the 120 servers I was responsible for in the previous role I also had Cisco networking equipment and IBM storage devices to support.",
+            "start_date": "2008-06-01",
+            "end_date": "2009-12-01"
         },
         {
-            "title": "Sanitairwinkel.nl",
-            "specification": "Webdeveloper",
-            "location": "Rosmalen",
-            "level": "Part-time",
-            "description": "At sanitairwinkel.nl, I improved/expanded the current webapplication and re-factored the code. I also created a brand new back-end system and improved the front-end by giving it a new look and feel. I also improved the website's SEO. ",
-            "start_date": "2007-10-01",
-            "end_date": "2008-06-01",
-			"link": "http://www.sanitairwinkel.nl/"
+            "title": "SpinVox",
+            "specification": "Linux Release and Testing Manager",
+            "location": "Maidenhead and Marlow, Berkshire, United Kingdom",
+            "level": "Fulltime",
+            "description": "My primary role was managing a team of two system administrators and ten software testers. I was responsible for the successful deployment of systems software to the live environment - 120 individual servers in a fully redundant and load balanced environment across three sites supporting up to 3,000,000 voice messages a day.",
+            "start_date": "2005-12-01",
+            "end_date": "2008-06-01"
         },
         {
-            "title": "Goomla.com",
-            "specification": "PHP Developer",
-            "location": "Eindhoven",
-            "level": "Part-time",
-            "description": "After my internship ended I was asked to stay as part-time employee. Goomla became partner of the year of Bol.com. In October 2007 Goomla was sold to Daisycon.",
-            "start_date": "2007-01-01",
-            "end_date": "2007-09-01" 
+            "title": "Carefone Services",
+            "specification": "Systems Administrator Team Lead",
+            "location": "Isleworth, Middlesex, United Kingdom",
+            "level": "Fulltime",
+            "description": "As head administrator, I managed a 4 man team responsible for the technical implementation and support of internal hardware and software products in the UK, France, Germany, South Africa and Australia. I established policies for server deployments, maintenance, and security. I performed day-to-day maintenance of server, workstation, and network equipment for internal and product related infrastructure – comprising roughly 50 servers plus networking equipment. I ensured compliance with SLA’s and performance standards through product benchmarking and proactive monitoring.",
+            "start_date": "1999-12-01",
+            "end_date": "2005-12-01"
         },
         {
-            "title": "Goomla.com",
-            "specification": "PHP Developer",
-            "location": "Eindhoven",
-            "level": "Internship",
-            "description": "I did my first internship at a company named Goomla. There I learned to apply my knowledge of PHP. Goomla was a shopping/comparison-site, with more than 100 affiliates including bol.com, wehkamp, neckermann, to name a few.",
-            "start_date": "2006-08-01",
-            "end_date": "2007-01-01"
+            "title": "Funderburg Ltd",
+            "specification": "Consultant Developer",
+            "location": "Various",
+            "level": "Contractor",
+            "description": "I was a contract Informix 4GL Programmer. During this time I worked with Davy Stockbrokers, United Gas, and Informix Ltd (who subcontracted me to Londis and Bull Information Systems. ",
+            "start_date": "1998-06-01",
+            "end_date": "1999-12-01"
+        },
+        {
+            "title": "Chase Manhattan Bank",
+            "specification": "Senior Systems Developer / Informix DBA",
+            "location": "Bourenmouth, United Kingdom",
+            "level": "Fulltime",
+            "description": "I assisted in the development and support of the Global Investment Manager (GIM II) for Chase Manhattan Bank. ",
+            "start_date": "1997-05-01",
+            "end_date": "1998-06-01" 
+        },
+        {
+            "title": "The United States Air Force",
+            "specification": "Aircraft Armament Systems Specialist",
+            "location": "RAF Upper Heyford, Oxfordshire, United Kingdom",
+            "level": "Senior Airman",
+	    "description": "My duties included: Loading and unloading of nuclear and nonnuclear munitions, explosives, and propellant devices on aircraft, and managing, controlling, maintaining, and installing aircraft bomb, rocket, and missile release, launch, suspension, and monitor systems; guns and gun mounts; and related munitions handing, loading, and test equipment. ",
+            "start_date": "1992-01-01",
+            "end_date": "1996-01-01"
         }
     ],
     "skills": [
-        {
-            "title": "PHP",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": ""
-        },
-        {
-            "title": "MySQL",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": ""
-        },
-        {
-            "title": "HTML",
-			"level": 5,
-            "level_detailed": 10,
-            "endorsement": ""
-        },
-        {
-            "title": "CSS",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": ""
-        },
-        {
-            "title": "Javascript",
-			"level": 4,
-            "level_detailed": 9,
-            "endorsement": ""
-        },
-        {
-            "title": "JQuery",
-			"level": 4,
-            "level_detailed": 10,
-            "endorsement": ""
-        },
-        {
-            "title": "LESS",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": ""
-        },
-		{
-            "title": "SASS",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": ""
-        },
-        {
-            "title": "JSON",
-			"level": 5,
-            "level_detailed": 10,
-            "endorsement": ""
-        },
-        {
-            "title": "XML",
-			"level": 5,
-            "level_detailed": 10,
-            "endorsement": ""
-        },
-        {
-            "title": "Bootstrap 2/3",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": ""
-        },
-        {
-            "title": "Wordpress",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": ""
-        },
-        {
-            "title": "Object Orientated Programming",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": ""
-        },
-        {
-            "title": "MVC Pattern",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": ""
-        },
-        {
-            "title": "Singleton Pattern",
-			"level": 4,
-            "level_detailed": 9,
-            "endorsement": ""
-        },
-        {
-            "title": "Method factory Pattern",
-			"level": 4,
-            "level_detailed": 7,
-            "endorsement": ""
-        },
-        {
-            "title": "Command line",
-			"level": 3,
-            "level_detailed": 6,
-            "endorsement": "Basics only"
-        },
-        {
-            "title": "UML",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": ""
-        },
-        {
-            "title": "SEO",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": ""
-        },
-        {
-            "title": "Java",
-			"level": 4,
-            "level_detailed": 7,
-            "endorsement": ""
-        },
-        {
-            "title": "Ruby",
-			"level": 2,
-            "level_detailed": 3,
-            "endorsement": ""
-        },
-        {
-            "title": "AngularJS",
-			"level": 2,
-            "level_detailed": 4,
-            "endorsement": ""
-        }
+    { "title": "Team Management", "level": 7, "level_detailed": 8, "endorsement": "14 years" },
+    { "title": "Software Deployment", "level": 6, "level_detailed": 9, "endorsement": "10 years" },
+    { "title": "Software Testing", "level": 4, "level_detailed": 9, "endorsement": "3 years" },
+    { "title": "Information Security", "level": 4, "level_detailed": 9, "endorsement": "6 years" },
+    { "title": "Systems Monitoring", "level": 5, "level_detailed": 9, "endorsement": "11 years" },
+    { "title": "'nix Shell Scripting", "level": 5, "level_detailed": 9, "endorsement": "15 years" },
+    { "title": "Database Administration", "level": 4, "level_detailed": 9, "endorsement": "13 years" },
+    { "title": "Servers", "level": 5, "level_detailed": 9, "endorsement": "17 years" },
+    { "title": "Virtualisation", "level": 4, "level_detailed": 9, "endorsement": "8 years" },
+    { "title": "Data Center Build", "level": 3, "level_detailed": 9, "endorsement": "14 years" },
+    { "title": "Integration", "level": 4, "level_detailed": 9, "endorsement": "6 years" },
+    { "title": "Operational Support", "level": 5, "level_detailed": 9, "endorsement": "14 years" }
     ],
     "languages": [
-        {
-            "title": "Dutch",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": "Mother tongue"
-        },
-        {
-            "title": "English",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": "Daily use"
-        },
-        {
-            "title": "German",
-			"level": 2,
-            "level_detailed": 3,
-            "endorsement": "Survivable"
-        },
-        {
-            "title": "French",
-			"level": 1,
-            "level_detailed": 2,
-            "endorsement": "Un petit peu"
-        }
+    { "title": "Linux & Unix Sys Admin", "level": 7, "level_detailed": 9, "endorsement": "Guru" },
+    { "title": "Windows Sys Admin", "level": 7, "level_detailed": 9, "endorsement": "Guru" },
+    { "title": "Cisco IOS and ASA Firewalls", "level": 4, "level_detailed": 9, "endorsement": "Competent" },
+    { "title": "TCP/IP ", "level": 5, "level_detailed": 9, "endorsement": "Expert" },
+    { "title": "Red Hat Enterprise Linux", "level": 5, "level_detailed": 9, "endorsement": "Expert" },
+    { "title": "Perl", "level": 3, "level_detailed": 9, "endorsement": "read and maintain" },
+    { "title": "C", "level": 2, "level_detailed": 9, "endorsement": "read and maintain" },
+    { "title": "C++", "level": 1, "level_detailed": 9, "endorsement": "read and maintain" },
+    { "title": "Active Directory", "level": 3, "level_detailed": 9, "endorsement": "stale skills" },
+    { "title": "Apache", "level": 5, "level_detailed": 9, "endorsement": "Expert" },
+    { "title": "Puppet Automation", "level": 4, "level_detailed": 9, "endorsement": "Competent" },
+    { "title": "Liquibase", "level": 4, "level_detailed": 9, "endorsement": "Competent" },
+    { "title": "Ubuntu", "level": 5, "level_detailed": 9, "endorsement": "Expert" },
+    { "title": "VMware ESX", "level": 4, "level_detailed": 9, "endorsement": "Competent" },
+    { "title": "Subversion", "level": 3, "level_detailed": 9, "endorsement": "Used in Anger" },
+    { "title": "MySQL", "level": 5, "level_detailed": 9, "endorsement": "Expert" },
+    { "title": "ITIL Process", "level": 4, "level_detailed": 9, "endorsement": "Competent" },
+    { "title": "Informix", "level": 5, "level_detailed": 9, "endorsement": "Expert" },
+    { "title": "Bind DNS", "level": 5, "level_detailed": 9, "endorsement": "Expert" },
+    { "title": "Bash", "level": 5, "level_detailed": 9, "endorsement": "Expert" },
+    { "title": "Nagios / Icinga Monitoring", "level": 6, "level_detailed": 9, "endorsement": "Guru" },
+    { "title": "PHP", "level": 4, "level_detailed": 9, "endorsement": "Competent" }
     ],
     "tools": [
-        {
-            "title": "Notepad++",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": "8 years"
-        },
-        {
-            "title": "Filezilla",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": "8 years"
-        },
-        {
-            "title": "MS Office",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": "10+ years"
-        },
-        {
-            "title": "Sublime Text",
-			"level": 4,
-            "level_detailed": 7,
-            "endorsement": "2 years"
-        },
-        {
-            "title": "Coda",
-			"level": 3,
-            "level_detailed": 6,
-            "endorsement": "1 year"
-        },
-        {
-            "title": "Windows",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": "10+ years"
-        },
-        {
-            "title": "Mac",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": "2 years"
-        },
-        {
-            "title": "Firefox",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": "8 years"
-        },
-        {
-            "title": "Webkit browsers",
-			"level": 5,
-            "level_detailed": 9,
-            "endorsement": "6 years"
-        },
-        {
-            "title": "Internet Explore 6+",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": "8 years"
-        },
-        {
-            "title": "Adobe Fireworks",
-			"level": 4,
-            "level_detailed": 8,
-            "endorsement": "8 years"
-        },
-        {
-            "title": "Adobe Photoshop",
-			"level": 3,
-            "level_detailed": 6,
-            "endorsement": "6 years"
-        },
-        {
-            "title": "Subversion",
-			"level": 4,
-            "level_detailed": 7,
-            "endorsement": "5 years"
-        },
-        {
-            "title": "Git",
-			"level": 3,
-            "level_detailed": 6,
-            "endorsement": "1 year"
-        }
+    { "title": "none", "level": 0, "level_detailed": 0, "endorsement": "" }
     ],
     "interests": [
         {
-            "title": "Sports",
-            "description": "I couldn't live without sports. In the weekend you will find me riding my mountainbike - just check out my Runkeeper. Once or twice a week, you'll find me in the gym or at the tracks to train my pole vaulting. I just love the adrenaline rush!",
-			"image": "sports.png"
+            "title": "Adventure",
+            "description": "<a href=\"http://xkcd.com/137/\" target=\"_blank\">XKCD</a> says it best: \"The infinite possibilities each day holds should stagger the mind. The sheer number of experiences I could have is uncountable, breathtaking, and I'm sitting here refreshing my inbox. We lived trapped in loops, reliving a few days over and over, and we envision only a handful of paths laid out ahead of us. We see the same things each day, we respond the same way, we think the same thoughts, each day a slight variation on the last, every moment smoothly following the gentle curves of societal norms. We act like if we just get through today, tomorrow our dreams will come back to us.  And no, I don't have all the answers. I don't know how to jolt myself into seeing what each moment could become. But I do know one thing: the solution doesn't involve watering down my every little idea and creative impulse for the sake of some day easing my fit into a mold. It doesn't involve tempering my life to better fit someone's expectations. It doesn't involve constantly holding back for fear of shaking things up.  This is very important, so I want to say it as clearly as I can: FUCK. THAT. SHIT.\"",
+			"image": "adventure.png"
         },
         {
-            "title": "Music",
-            "description": "I can listen to music all day. I have a varied taste of music and I listen to it at work, during sports, riding my bike, on the train... I play guitar myself and would love to own a drum-kit some day.",
-			"image": "music.png"
+            "title": "Technology and Geekery",
+            "description": "I first laid my hands on a computer - A Commodore 64 - in 1985. In a few days I'd written my first programme in Basic and I instantly knew this was what I was going to do with my life. A decade later, after moving to England and getting my permanent residency, I was trained as an Informix 4GL programmer.  While I was good at this, my passion was for doing the more complex systems administration tasks and when Linux starting becoming more popular I was hooked.  I've worked as some form of systems administrator ever since and eventually ended up managing other sys admins. It's paid the bills.  Aside from that I'm a fan of RPG gaming.  I think I've played every Zelda and Final Fantasy ever made including some bizarre Japanese ones.  I also like simulated worlds.  Second Life was a huge part of my life for years and I still have some very special friends from that time.  Minecraft then took over - before it became the abode of 10 year olds. I even ran my own server for a time but now it's mostly <a href=\"http://www.awencraft.net/\" target=\"_blank\">closed down</a>", 
+			"image": "tech.png"
         },
         {
-            "title": "My Cats",
-            "description": "If you look up my social networks, you'll surely come across one of my cats. Because what is the internet without cats? Nothing, right? And I'm an internet man, so one and one makes two.",
-			"image": "cats.png"
+            "title": "Gardening",
+            "description": "I took up an allotment garden in 2011 because I had a craving for better tomatoes! At various particular points in the year you'll find me organically growing onions, garlic, leeks, potatoes, peppers, cherries, pears, broad beans, runner beans, courgettes, carrots, rhubarb, peas, raspberries, blackberries, various herbs and spices, one or two pumpkins, and vast amounts of multi-coloured tomatoes that I either eat like candy, fill burgers with, or turn into salsa. I'm also a keen forager of blackberries and plums from roadside trees when they're in season.  During the winter I go sit in my shed in Saturday mornings whist drinking coffee and reading books.  When it's too cold to do that, I've actually learned how to knit!",
+			"image": "gardening.png"
         },
         {
-            "title": "Algorithms",
-            "description": "I love solving riddles and problems and building stuff from scratch. My strong suit is that I don't give up without a fight. When trying to find the solution to a problem, I will not quit until I find at least one. The satisfaction I get from solving a problem can really make my day.",
-			"image": "algorithms.png"
+            "title": "Fitness and Diet",
+            "description": "Ladies and gentlemen, I am now and have been for some time: a fat man. There's no getting away from that.  I became lazy and complacent in my mid 20's. During my entire 30's I did no exercise and let my fitness just waste away.  However, in the Summer of 2014, at the age of 41, on the top of a mountain in the Scottish Highlands, I made a decision to lose just a bit more than 4 stone (56 lbs) in one year. To that end, I count calories (no fad diets!), avoid processed food in favour of fresh and home-made, walk or cycle or run every single day, do a bit of inexact yoga learned from Youtube, and the odd bit of calisthenics to build my strength back up. I won't lie - it's bloody hard work.  Failure however, isn't even a possibility and a current goal is to lose 3/4 of my target by the spring of 2015 and cycle the length of Wales from Chepstow to Holyhead.",
+			"image": "fitness.png"
         },
         {
-            "title": "Travel",
-            "description": "When I was 19 I traveled by plane for the first time, and after that I was hooked. I went to the United States twice, Surinam, Greece, Malta, the Canary Islands and more. But as much as I love the sun, I also love going to the Alps for some snowboarding.",
-			"image": "travel.png"
+            "title": "Environmental Studies, Politics, and Activism",
+            "description": "Ideologically I'm a <a href=\"http://en.wikipedia.org/wiki/Libertarian_socialism\" target=\"_blank\">social libertarian</a> almost bordering on anarchist. Politically, in the UK, although I can't vote, I strongly support the <a href=\"http://greenparty.org.uk/\" target=\"_blank\">Green Party</a> and share their values and ethics. I regularly give to organisations that work to protect and conserve the environment, promote peace, encourage equality, or support social and environmental justice such as: <a href=\"http://www.greenpeace.org.uk/\" target=\"_blank\">Greenpeace</a>, <a href=\"http://www.woodlandtrust.org.uk/\" target=\"_blank\">The Woodland Trust</a>, <a href=\"http://www.worldwildlife.org/home.html\" target=\"_blank\">World Wildlife Fund</a>, and <a href=\"http://www.foe.co.uk/\" target=\"_blank\">Friends of The Earth</a>. Locally I support <a href=\"http://www.newbury.cats.org.uk/\" target=\"_blank\">Newbury Cat's Protection</a> by sponsoring a pen in memory of our cat Piper. Whist most of my \"activism\" is confined to my bank account and armchair, issues like fracking and badger culls are likely to get me out on the streets.",
+			"image": "eco.png"
+        },
+        {
+            "title": "Pagan Druidry",
+            "description": "Ah religion. A dirty work nowadays and not something people talk about in depth. This is the specific one I practice. Don't worry I won't be trying to convert anyone. Nor will anyone catch me dancing naked around Stonehenge.  Have you BEEN there?  It's always too cold for that nonsense!  ;-) To me, Druidry is simply a pathway to living with honour and intent, respecting all of nature, the spirits of place, the gods, and my ancestors. It's also an outlet to sacrifice my time and energy in the service to my community.",
+			"image": "awen.png"
         }
     ]
 }

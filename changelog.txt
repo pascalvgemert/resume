@@ -1,0 +1,14 @@
+-- Version 1 --
+
+* switched to a usable json configuration.
+* Modified robots.txt in a possibly vain attempt to block dodgy robots.
+* "De-Mac'd" a few files by giving them a newline at the end of the file.
+* Added much SEO to both the index and the 404 page.
+* Added FUZZYNESS and some cleanup to the 404 page.
+* Moved 404 to a more logical place.  Might move it back?
+* Removed Pascal's picture.  Added mine.  ;-)
+* Removed strange html index file.
+
+-- Version 0 --
+
+* Cloned from the awesome Pascal van Gemert - http://www.pascalvangemert.nl - via https://github.com/pascalvgemert/resume

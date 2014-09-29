@@ -1,2 +1,12 @@
-User-Agent: *
-Disallow: 
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Slurp
+User-agent: msnbot
+User-agent: bingbot
+User-agent: Teoma
+User-agent: AdsBot-Google
+Disallow:
+
+User-agent: *
+Disallow: /
+

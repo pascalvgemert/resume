@@ -1,6 +1,11 @@
 <h2>Experiences</h2>
 <p class="lead">
-	&ldquo;Protons give an atom its identity, electrons its personality.&rdquo;<br />- Bill Bryson, A short history of nearly everything
+	&ldquo;
+We shall not cease from exploration<br />
+And the end of all our exploring<br />
+Will be to arrive where we started<br />
+And know the place for the first time.
+&rdquo;<br />- T.S. Eliot, Four Quartets 
 </p>
 
 <hr />
@@ -19,7 +24,8 @@
 			<p class="experience-period">
 				<?= date('M Y', strtotime($education->start_date)); ?>
 				- 
-				<?= (@isset($education->end_date)) ? date('M Y', strtotime($education->end_date)) : 'current'; ?>
+				<?= (@isset($education->end_date)) ? date('M Y', strtotime($education->end_date)) : 'current'; ?>&nbsp;
+				<?= ($education->completed == 'true') ? '' : '(expected)'; ?>
 			</p>
 		</div>
 		<div class="col-md-8">

@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 	<head>
 		
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="content-script-type" content="text/javascript" />
 		<meta http-equiv="content-style-type" content="text/css" />
-		<meta http-equiv="content-language" content="nl" />
+                <meta charset="utf-8">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
-		<meta name="author" content="Pascal van Gemert" />	
-		<meta name="description" content="I'm Pascal van Gemert, a ninja webdeveloper / creative programmer with good knowledge of front-end technics." />
-		<meta name="keywords" content="Pascal van Gemert, Interactive Resume, PHP programmer, Web developer, Startup, Interactive CV, Resume, CV, Whoopaa, HRMatches, Sanitairwinkel, Algorithms, PHP, MySQL, OOP" />
+		<meta name="author" content="Chris Funderburg" />	
+		<meta name="description" content="IT Infrastructure Manager · Dad · Old School Geek · Environmentalist · Gardener · Yogi · Cyclist · University Student · Pagan Druid · Adventurer · Seeker" />
+		<meta name="keywords" content="Funderburg,Chris Funderburg,Bocan,cycling,bicycle,pagan,druid,sysadmin,infrastructure,release,manager,network,engineer,home page,genealogy,family tree,study,environment,yoga,yogi" />
+		<meta property="og:title" content="Chris Funderburg : Interactive CV and Homepage" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="http://chris.funderburg.me/images/me.jpg" />
+		<meta property="og:url" content="http://chris.funderburg.me/" />
+		<meta property="og:description" content="The home page of Chris Funderburg : IT Infrastructure Manager · Dad · Old School Geek · Environmentalist · Gardener · Yogi · Cyclist · University Student · Pagan Druid · Adventurer · Seeker" />
 		<meta name="robots" content="index, follow" />
 		<meta name="revisit-after" content="14 days" />
 			
-		<title>Pascal van Gemert - Web Developer - Interactive Resume</title>
+		<title>Chris Funderburg : Home - Where my story begins.</title>
 		
 		<!-- Bootstrap core CSS -->
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
-		<link href="<?= VIEW_PATH; ?>css/bootstrap.min.css" rel="stylesheet" />
+                <link href='http://fonts.googleapis.com/css?family=Eagle+Lake' rel='stylesheet' type='text/css'>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="<?= VIEW_PATH; ?>style.css" rel="stylesheet" />
 		
 		<link rel="shortcut icon" href="<?= BASE; ?>favicon.ico" type="image/x-icon" />
@@ -29,25 +35,9 @@
 			<script src="<?= VIEW_PATH; ?>js/html5shiv.js"></script>
 			<script src="<?= VIEW_PATH; ?>js/respond.min.js"></script>
 		<![endif]-->
-		
-		<!-- Begin Inspectlet Embed Code -->
-		<script type="text/javascript" id="inspectletjs">
-			window.__insp = window.__insp || [];
-			__insp.push(['wid', 92785244]);
-			(function() {
-				function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
-				if (window.attachEvent){
-					window.attachEvent('onload', __ldinsp);
-				}else{
-					window.addEventListener('load', __ldinsp, false);
-				}
-			})();
-		</script>
-		<!-- End Inspectlet Embed Code -->
+
 	</head>
 	<body data-spy="scroll" data-target="#navbar-example">	 
-		
-		<div class="opl"><a href="http://onepagelove.com/pascal-van-gemert" target="_blank">pascalvangemert.nl featured on One Page Love</a></div>
 		
 		<?php 
 			
@@ -55,16 +45,16 @@
 			$header_images = array(
 				array('source' => VIEW_PATH.'images/hotdog_stand_animation.gif', 'position' => 'center center'),
 				array('source' => VIEW_PATH.'images/metro_animation.gif', 'position' => 'center right'),
-				array('source' => VIEW_PATH.'images/taxi_drive_by_animation.gif', 'position' => 'center center'),
 				array('source' => VIEW_PATH.'images/tower_scope_animation.gif', 'position' => 'center right'),
-				array('source' => VIEW_PATH.'images/highway_animation.gif', 'position' => 'center right'),
+				array('source' => VIEW_PATH.'images/taxi_drive_by_animation.gif', 'position' => 'center center'),
 				array('source' => VIEW_PATH.'images/window_rain_animation.gif', 'position' => 'bottom right'),
+				array('source' => VIEW_PATH.'images/highway_animation.gif', 'position' => 'center right'),
 				array('source' => VIEW_PATH.'images/coffee_animation.gif', 'position' => 'center center')
 			);
 			$current_index  = (@isset($_GET['header']) && is_numeric($_GET['header'])) ? intval($_GET['header']) : date('d') % count($header_images); // $_GET['header'] overwrites current header
 			$current_header = (@isset($header_images[$current_index])) ? $header_images[$current_index] : current($header_images);
 		
-			if(date('d-m') == '19-11')
+			if(date('d-m') == '26-03')
 			{
 				$current_header = array('source' => VIEW_PATH.'images/birthday_animation.gif', 'position' => 'center center');
 			}
@@ -73,7 +63,7 @@
 		<div id="top" class="jumbotron" data-src="<?= $current_header['source']; ?>" data-position="<?= $current_header['position']; ?>">
 			<div class="container">
 				<h1><?= $profile->full_name; ?></h1>
-				<p class="lead">Interactive resume</p>
+				<p class="lead">Interactive CV and Homepage</p>
 			</div>
 			
 			<div class="overlay"></div>
@@ -131,25 +121,33 @@
 				<?php include(VIEW_INCLUDE_PATH.'sections/contact.inc.php'); ?>
 			</div>
 		</div>
+
+<footer id="footer">
+        <audio controls loop preload="none" title="HTML 5 Audio"> 
+          <source src="mp3/Taqsim_oud.mp3" />
+          <source src="ogg/Taqsim_oud.ogg" />
+          Seriously? Your web browser is so old that it doesn't support html5 audio.  Install the latest <a href="http://www.mozilla.com/en-US/firefox/" target="_blank">Firefox</a> or <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a>.
+        </audio>
+</footer>
 		
 		<?php include(VIEW_INCLUDE_PATH.'sections/upgrade.inc.php'); ?>
 		
 		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript" src="<?= VIEW_PATH; ?>js/script.js"></script>
-		<script type="text/javascript" src="<?= VIEW_PATH; ?>js/bootstrap.min.js"></script>
-		
+		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 		<!-- Google Analytics -->
-		<script type="text/javascript">
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-3361587-8']);
-		  _gaq.push(['_trackPageview']);
+		<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 		
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+  		ga('create', 'UA-8518536-7', 'auto');
+  		ga('send', 'pageview');
+		
 		</script>
+
 	</body>
 </html>

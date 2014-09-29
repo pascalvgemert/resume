@@ -1,6 +1,6 @@
 <h2>Interests</h2>
 <p class="lead">
-	&ldquo;You can do anything you set your mind to.&rdquo;<br />- Benjamin Franklin
+	&ldquo;Tell me what you pay attention to and I will tell you who you are.&rdquo;<br />- José Ortega y Gasset
 </p>
 
 <hr />

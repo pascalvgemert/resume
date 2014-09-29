@@ -10,4 +10,4 @@
 	
 	define('VIEW_PATH', BASE.'view/');
 	
-	define('JSON_DATA_FILE', ROOT.'json/resume.min.json');
+	define('JSON_DATA_FILE', ROOT.'json/resume.json');

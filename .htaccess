@@ -1,3 +1,5 @@
+ErrorDocument 404 /404.php
+
 # BEGIN Compress text files
 <ifModule mod_deflate.c>
   <filesMatch "\.(css|js|x?html?|php)$">
@@ -54,27 +56,10 @@ FileETag None
 </ifModule>
 # END Remove Last-Modified Header
 
-# php compression – use with caution
+# php compression Â– use with caution
 <ifmodule mod_php4.c>
 php_value zlib.output_compression 16386
 </ifmodule>
 
-
-<IfModule mod_rewrite.c>
-RewriteEngine On
-
-RewriteEngine on
-# Options +FollowSymlinks
-RewriteCond %{HTTP_REFERER} http://54.238.131.230 [NC]
-RewriteRule .* - [F]
-
-RewriteCond %{HTTP_HOST} ^pascalvangemert.nl$
-RewriteRule (.*) http://www.pascalvangemert.nl/$1 [R=301,L]
-
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
-
+rewriteCond %{HTTP_HOST} ^funderburg.me$
+RewriteRule (.*) http://chris.funderburg.me/$1 [R=301,L]
