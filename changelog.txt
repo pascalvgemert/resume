@@ -8,6 +8,16 @@
 * Moved 404 to a more logical place.  Might move it back?
 * Removed Pascal's picture.  Added mine.  ;-)
 * Removed strange html index file.
+* Added a music player in a floating footer bar
+* /Tried/ to update google analytics.  Need to check this.
+* Used a newer JQuery.
+* Used the CDN Bootstrap.
+* Removed Inspectlet.
+* Changed interest images.
+* Added new JSON fields.
+* Better Quotes.
+* Many formatting changes.
+* Changed Social Media Sprites - Now with ello.co!
 
 -- Version 0 --
 
