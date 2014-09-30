@@ -10,6 +10,14 @@ audio {width: 220px; height:20px;}
     width: 100%;
 }
 
+#credit {
+    position: relative;
+    bottom: 5px; 
+    left: 0;
+    z-index: 8;
+    width: 100%;
+}
+
 #legend { color: #666666 !important; font-family: 'Eagle Lake', cursive; font-size: 16px; text-align: center; 	text-shadow: 1px 1px #111111;}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px; }
@@ -24,8 +32,8 @@ p.lead a:hover { text-decoration: none; }
 ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
 hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity=20); }
 
-.project-referal { margin-top: 40px; }
-.project-referal p { font-style: italic; color: #999999; }
+.project-referal { font-style: italic; margin-top: 20px; margin-bottom: 30px;}
+.project-referal div { font-style: italic; color: #999999; }
 
 .btn-primary { background-color: #22A39F; border-color: #1c8784; }
 .btn-primary:hover { background-color: #1c8784;  border-color: #1c8784; }

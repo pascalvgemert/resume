@@ -43,13 +43,13 @@
 			
 			// show an different picture per day, loop through array
 			$header_images = array(
+				array('source' => VIEW_PATH.'images/coffee_animation.gif', 'position' => 'center center'),
 				array('source' => VIEW_PATH.'images/hotdog_stand_animation.gif', 'position' => 'center center'),
 				array('source' => VIEW_PATH.'images/metro_animation.gif', 'position' => 'center right'),
 				array('source' => VIEW_PATH.'images/tower_scope_animation.gif', 'position' => 'center right'),
 				array('source' => VIEW_PATH.'images/taxi_drive_by_animation.gif', 'position' => 'center center'),
 				array('source' => VIEW_PATH.'images/window_rain_animation.gif', 'position' => 'bottom right'),
-				array('source' => VIEW_PATH.'images/highway_animation.gif', 'position' => 'center right'),
-				array('source' => VIEW_PATH.'images/coffee_animation.gif', 'position' => 'center center')
+				array('source' => VIEW_PATH.'images/highway_animation.gif', 'position' => 'center right')
 			);
 			$current_index  = (@isset($_GET['header']) && is_numeric($_GET['header'])) ? intval($_GET['header']) : date('d') % count($header_images); // $_GET['header'] overwrites current header
 			$current_header = (@isset($header_images[$current_index])) ? $header_images[$current_index] : current($header_images);
@@ -129,7 +129,10 @@
           Seriously? Your web browser is so old that it doesn't support html5 audio.  Install the latest <a href="http://www.mozilla.com/en-US/firefox/" target="_blank">Firefox</a> or <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a>.
         </audio>
 </footer>
-		
+<footer id="credit">
+          <div class="text-center project-referal">This project is built with an open source framework originally<br />designed by <a href="http://www.pascalvangemert.nl/">Pascal van Gemert</a> and then forked by myself.<br /><a href="https://github.com/bocan/resume" class="btn btn-primary" target="_blank">See project on Github</a></div>
+</footer>
+
 		<?php include(VIEW_INCLUDE_PATH.'sections/upgrade.inc.php'); ?>
 		
 		<!-- Bootstrap core JavaScript -->
