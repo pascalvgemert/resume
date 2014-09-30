@@ -1,11 +1,9 @@
 <h2>Experiences</h2>
 <p class="lead">
 	&ldquo;
-We shall not cease from exploration<br />
-And the end of all our exploring<br />
-Will be to arrive where we started<br />
-And know the place for the first time.
-&rdquo;<br />- T.S. Eliot, Four Quartets 
+We shall not cease from exploration and the end of all our exploring<br />
+Will be to arrive where we started and know the place for the first time.&rdquo;<br />
+- T.S. Eliot, Four Quartets 
 </p>
 
 <hr />
