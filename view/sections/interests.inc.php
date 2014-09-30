@@ -11,7 +11,7 @@
 	
 <div class="row">
 	<div class="col-md-4 <?= ($index % 2 == 0) ? 'left' : 'right'; ?>">
-		<img src="<?= VIEW_PATH; ?>images/interests/<?= $interest->image; ?>" alt="<?= $interest->title; ?>" width="220" height="220" />
+		<img src="<?= VIEW_PATH; ?>images/interests/<?= $interest->image; ?>" alt="<?= $interest->title; ?>" width="180" height="180" />
 	</div>
 	<div class="col-md-8 interest-content">
 		<h3><?= $interest->title; ?></h3>

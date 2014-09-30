@@ -1,6 +1,10 @@
 -- Planned --
 * Fix my lost lightboxes that displayed the google maps nicely.
-* Give Pascal credit for his framework in a clean way.
+* Give Pascal credit for his framework in a clean way. Needs a better footer.
+
+-- Version 1.1  --
+* Resize and re-align interest icons.
+* Content changes
 
 -- Version 1.1  --
 * Update README.md for Github

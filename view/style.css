@@ -135,7 +135,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #interests .right { float: right; }
 #interests img { width: 80%; height: auto; }
 #interests .right img { float: right; }
-#interests .interest-content { padding: 40px 0px; }
+#interests .interest-content { padding: 0px 0px 40px 0px; }
 
 #interests .row:hover .left img {
 	-webkit-transform: rotate(-12deg);
