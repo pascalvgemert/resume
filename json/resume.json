@@ -138,13 +138,13 @@
             "endorsement": ""
         },
         {
-            "title": "HTML",
+            "title": "HTML(5)",
 			"level": 5,
             "level_detailed": 10,
             "endorsement": ""
         },
         {
-            "title": "CSS",
+            "title": "CSS(3)",
 			"level": 5,
             "level_detailed": 9,
             "endorsement": ""
@@ -186,7 +186,7 @@
             "endorsement": ""
         },
         {
-            "title": "Bootstrap 2/3",
+            "title": "Bootstrap Framework",
 			"level": 4,
             "level_detailed": 8,
             "endorsement": ""
@@ -216,7 +216,13 @@
             "endorsement": ""
         },
         {
-            "title": "Method factory Pattern",
+            "title": "Method Factory Pattern",
+			"level": 4,
+            "level_detailed": 7,
+            "endorsement": ""
+        },
+        {
+            "title": "Builder Pattern",
 			"level": 4,
             "level_detailed": 7,
             "endorsement": ""
@@ -247,8 +253,8 @@
         },
         {
             "title": "Ruby",
-			"level": 2,
-            "level_detailed": 3,
+			"level": 1,
+            "level_detailed": 2,
             "endorsement": ""
         },
         {
@@ -292,6 +298,12 @@
             "endorsement": "8 years"
         },
         {
+            "title": "Coda2",
+			"level": 4,
+            "level_detailed": 8,
+            "endorsement": "2 years"
+        },
+        {
             "title": "Filezilla",
 			"level": 5,
             "level_detailed": 9,
@@ -310,12 +322,6 @@
             "endorsement": "2 years"
         },
         {
-            "title": "Coda",
-			"level": 3,
-            "level_detailed": 6,
-            "endorsement": "1 year"
-        },
-        {
             "title": "Windows",
 			"level": 5,
             "level_detailed": 9,
@@ -325,7 +331,7 @@
             "title": "Mac",
 			"level": 4,
             "level_detailed": 8,
-            "endorsement": "2 years"
+            "endorsement": "3 years"
         },
         {
             "title": "Firefox",
@@ -367,7 +373,7 @@
             "title": "Git",
 			"level": 3,
             "level_detailed": 6,
-            "endorsement": "1 year"
+            "endorsement": "2 year"
         }
     ],
     "interests": [
@@ -396,5 +402,49 @@
             "description": "When I was 19 I traveled by plane for the first time, and after that I was hooked. I went to the United States twice, Surinam, Greece, Malta, the Canary Islands and more. But as much as I love the sun, I also love going to the Alps for some snowboarding.",
 			"image": "travel.png"
         }
+    ],
+    "projects": [
+    	{
+	    	"title": "Mals",
+	    	"description": "Mals, a creative agency located in Rotterdam.",
+	    	"tags": "Development, Wordpress, Bootstrap",
+	    	"image": "project_mals.jpg",
+	    	"link": "http://studiomals.com"
+    	},
+    	{
+	    	"title": "Oetelspel",
+	    	"description": "An online game specially for Carneval at 's-Hertogenbosch.",
+	    	"tags": "Development, Concept, Founder",
+	    	"image": "project_oetelspel.jpg",
+	    	"link": "http://oetelspel.nl"
+    	},
+    	{
+	    	"title": "Medisch Biomagnetisme",
+	    	"description": "A nice one pager build for Hanneke Velthuijsen.",
+	    	"tags": "Development, Design, Bootstrap, Wordpress",
+	    	"image": "project_mbm.jpg",
+	    	"link": "http://medischbiomagnetisme.com"
+    	},
+    	{
+	    	"title": "Playful Arts Festival",
+	    	"description": "Build a website for the Playful Arts Festival.",
+	    	"tags": "Development, Bootstrap, Wordpress",
+	    	"image": "project_paf.jpg",
+	    	"link": "http://playfulartsfestival.com"
+    	},
+    	{
+	    	"title": "SOAP - Den Bosch",
+	    	"description": "Build the website of the local barbershop.",
+	    	"tags": "Design, Development, Bootstrap, Wordpress",
+	    	"image": "project_soap.jpg",
+	    	"link": "http://soaphair.nl"
+    	},
+    	{
+	    	"title": "Playful Arts Festival",
+	    	"description": "Build a website for the Playful Arts Festival",
+	    	"tags": "Development, Bootstrap, Wordpress",
+	    	"image": "project_paf.jpg",
+	    	"link": "http://playfulartsfestival.com"
+    	}
     ]
 }
