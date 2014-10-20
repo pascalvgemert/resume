@@ -10,6 +10,7 @@
 	require_once('presenters/collections/languages.class.php');
 	require_once('presenters/collections/tools.class.php');
 	require_once('presenters/collections/interests.class.php');
+	require_once('presenters/collections/projects.class.php');
 	require_once('models/contact.class.php');
 	
 	/**
@@ -35,6 +36,7 @@
 			$this->loadExperiences();
 			$this->loadAbilities();
 			$this->loadInterests();
+			$this->loadProjects();
 			$this->loadContactInformation();
 		}
 		
@@ -112,6 +114,15 @@
 			$loInterestCollection->sortByName();
 			
 			$this->ioViewController->assign('interests', $loInterestCollection->all());
+		}	
+		
+		private function loadProjects()
+		{
+			$loProjectCollection = new \Presenters\Collections\Projects();
+			
+			//$loProjectCollection->sortByName();
+			
+			$this->ioViewController->assign('projects', $loProjectCollection->all());
 		}	
 		
 		private function loadContactInformation()

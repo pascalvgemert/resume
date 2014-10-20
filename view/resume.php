@@ -100,7 +100,8 @@
 					<li class="active"><a href="#profile">Profile</a></li>
 					<li><a href="#experiences">Experiences</a></li>
 					<li><a href="#abilities">Abilities</a></li>
-					<li><a href="#interests">Interests</a></li>
+					<?php /* <li><a href="#interests">Interests</a></li> */ ?>
+					<li><a href="#projects">Projects</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
@@ -122,8 +123,14 @@
 			</div>
 		</div>
 		
+		<?php /*
 		<div id="interests" class="container">
 			<?php include(VIEW_INCLUDE_PATH.'sections/interests.inc.php'); ?>
+		</div>
+		*/ ?>
+		
+		<div id="projects" class="container">
+			<?php include(VIEW_INCLUDE_PATH.'sections/projects.inc.php'); ?>
 		</div>
 		
 		<div class="background-gray">
