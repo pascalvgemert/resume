@@ -25,6 +25,11 @@
 		
 		/* PUBLIC METHODS */
 		
+		/**
+		 * Show template by template name
+		 *
+		 * @param string $pstrTemplate
+		 */
 		public function showTemplate($pstrTemplate)
 		{
 			if(!$this->templateExists(VIEW_INCLUDE_PATH . $pstrTemplate))
@@ -35,6 +40,9 @@
 			$this->renderTemplate(VIEW_INCLUDE_PATH . $pstrTemplate);
 		}
 		
+		/**
+		 * Show template page not found
+		 */
 		public function showPageNotFound()
 		{			
 			if($this->templateExists($this->istrNotFoundTemplate))
@@ -45,6 +53,12 @@
 			exit();
 		}
 		
+		/**
+		 * Assign a variable to the View
+		 * 
+		 * @param string $pstrVariable
+		 * @param mixed $pmValue
+		 */
 		public function assign($pstrVariable, $pmValue)
 		{
 			$this->iaVariables[$pstrVariable] = $pmValue;
@@ -52,11 +66,23 @@
 		
 		/* PRIVATE METHODS */
 		
+		/**
+		 * Check if template file exists
+		 *
+		 * @param string $pstrTemplate
+		 */
 		private function templateExists($pstrTemplate)
 		{
 			return (@file_exists($pstrTemplate) && is_file($pstrTemplate));
 		}
 		
+		/**
+		 * Render template
+		 * Create assignments and include template 
+		 *
+		 * @param string $pstrTemplate
+		 * @param int $pnStatusCode
+		 */
 		private function renderTemplate($pstrTemplate, $pnStatusCode = 200)
 		{
 			foreach($this->iaVariables as $lstrVariable => $lmValue)
@@ -69,6 +95,11 @@
 			@include_once($pstrTemplate);
 		}
 		
+		/**
+		 * Set Status code Header
+		 *
+		 * @param int $pnStatusCode
+		 */
 		private function setStatusCodeHeader($pnStatusCode)
 		{
 			$lstrStatusCode = (@isset($this->iaStatusCodes[$pnStatusCode])) ? $this->iaStatusCodes[$pnStatusCode] : '200 OK';

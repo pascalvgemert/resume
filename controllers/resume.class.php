@@ -24,6 +24,11 @@
 		
 		/* PUBLIC METHODS */
 		
+		/**
+		 * Call show function of Resume Controller
+		 *
+		 * @params array $paParams
+		 */
 		public function show($paParams = array())
 		{
 			$this->ioResumeService->buildResume();
