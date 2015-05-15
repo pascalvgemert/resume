@@ -18,6 +18,21 @@ audio {width: 220px; height:20px;}
     width: 100%;
 }
 
+#footnote {
+    clear: both;
+    color: #434242 !important;
+    font-size: 6px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+#footnote a {
+    color: #434242 !important;
+}
+
+
 #legend { color: #666666 !important; font-family: 'Eagle Lake', cursive; font-size: 16px; text-align: center; 	text-shadow: 1px 1px #111111;}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px; }

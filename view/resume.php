@@ -9,13 +9,13 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
-		<meta name="author" content="Chris Funderburg" />	
+		<meta name="author" content="Chris Funderburg - http://chris.funderburg.me" />	
 		<meta name="description" content="IT Infrastructure Manager · Dad · Old School Geek · Environmentalist · Gardener · Yogi · Cyclist · University Student · Pagan Druid · Adventurer · Seeker" />
 		<meta name="keywords" content="Funderburg,Chris Funderburg,Bocan,cycling,bicycle,pagan,druid,sysadmin,infrastructure,release,manager,network,engineer,home page,genealogy,family tree,study,environment,yoga,yogi" />
 		<meta property="og:title" content="Chris Funderburg : Interactive CV and Homepage" />
 		<meta property="og:type" content="website" />
-		<meta property="og:image" content="http://chris.funderburg.me/images/me.jpg" />
-		<meta property="og:url" content="http://chris.funderburg.me/" />
+		<meta property="og:image" content="https://chris.funderburg.me/images/me.jpg" />
+		<meta property="og:url" content="https://chris.funderburg.me/" />
 		<meta property="og:description" content="The home page of Chris Funderburg : IT Infrastructure Manager · Dad · Old School Geek · Environmentalist · Gardener · Yogi · Cyclist · University Student · Pagan Druid · Adventurer · Seeker" />
 		<meta name="robots" content="index, follow" />
 		<meta name="revisit-after" content="14 days" />
@@ -23,8 +23,8 @@
 		<title>Chris Funderburg : Home - Where my story begins.</title>
 		
 		<!-- Bootstrap core CSS -->
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
-                <link href='http://fonts.googleapis.com/css?family=Eagle+Lake' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
+                <link href='https://fonts.googleapis.com/css?family=Eagle+Lake' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="<?= VIEW_PATH; ?>style.css" rel="stylesheet" />
 		
@@ -124,33 +124,40 @@
 
 <footer id="footer">
         <audio controls loop preload="none" title="HTML 5 Audio"> 
-          <source src="mp3/Taqsim_oud.mp3" />
-          <source src="ogg/Taqsim_oud.ogg" />
+          <source src="mp3/TheNights.mp3" />
+          <source src="ogg/TheNights.ogg" />
           Seriously? Your web browser is so old that it doesn't support html5 audio.  Install the latest <a href="http://www.mozilla.com/en-US/firefox/" target="_blank">Firefox</a> or <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a>.
         </audio>
 </footer>
 <footer id="credit">
-          <div class="text-center project-referal">This project is built with an open source framework originally<br />designed by <a href="http://www.pascalvangemert.nl/">Pascal van Gemert</a> and then forked by myself.<br /><a href="https://github.com/bocan/resume" class="btn btn-primary" target="_blank">See project on Github</a></div>
+          <div class="text-center project-referal">This project is built with an open source framework originally<br />designed by <a href="http://www.pascalvangemert.nl/">Pascal van Gemert</a> and then forked by myself.<br /><a href="https://github.com/bocan/resume" class="btn btn-primary" target="_blank">See project on Github</a>
+<br />
+</div>
 </footer>
+
 
 		<?php include(VIEW_INCLUDE_PATH.'sections/upgrade.inc.php'); ?>
 		
 		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript" src="<?= VIEW_PATH; ?>js/script.js"></script>
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-		<!-- Google Analytics -->
-		<script>
-  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		
-  		ga('create', 'UA-8518536-7', 'auto');
-  		ga('send', 'pageview');
-		
-		</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//chris.funderburg.me/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//chris.funderburg.me/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 
 	</body>
 </html>

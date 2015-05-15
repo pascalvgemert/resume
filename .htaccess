@@ -1,8 +1,11 @@
 ErrorDocument 404 /404.php
 
+RewriteEngine On
+RewriteRule "^(.*/)?\.(git|svn)/" - [F,L]
+
 # BEGIN Compress text files
 <ifModule mod_deflate.c>
-  <filesMatch "\.(css|js|x?html?|php)$">
+  <filesMatch "\.(ico|css|js|x?html?|php)$">
     SetOutputFilter DEFLATE
   </filesMatch>
 </ifModule>

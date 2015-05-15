@@ -15,7 +15,7 @@
 		<title>Chris Funderburg - Interactive CV and Homepage</title>
 		
 		<!-- Bootstrap core CSS -->
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
 		<link href="/view/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="/view/css/jquery.iedialog.min.css" rel="stylesheet" />
 		<link href="/view/style.css" rel="stylesheet" />
@@ -26,14 +26,14 @@
 		<div class="jumbotron" data-src="/view/images/kitten_animation.gif" data-position="center right">
 			<div class="container">
 				<h1>404 - Page not found</h1>
-				<p class="lead">We only found a sleeping kitten. ISN'T HE FUZZY?!?!<br /><a href="http://chris.funderburg.me">Return to the homepage</a></p>
+				<p class="lead">We only found a sleeping kitten. ISN'T HE FUZZY?!?!<br /><a href="https://chris.funderburg.me">Return to the homepage</a></p>
 			</div>
 			
 			<div class="overlay"></div>
 		</div>
 		
 		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="/view/js/jquery.iedialog.min.js"></script>
 		<script type="text/javascript">
 			

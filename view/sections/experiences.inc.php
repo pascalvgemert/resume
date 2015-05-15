@@ -79,6 +79,9 @@ Will be to arrive where we started and know the place for the first time.&rdquo;
 				<strong><?= $career->level; ?> - <?= $career->specification; ?></strong>
 				<span class="hidden-phone">
 					<?= $career->description; ?>
+				        <?php if(@isset($career->tech)) { ?>
+                                           <br /><b>Technologies: </b><?= $career->tech; ?>
+				        <?php } ?>
 				</span>
 				<span class="experience-details">
 					<span class="location">
