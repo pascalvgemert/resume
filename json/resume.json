@@ -6,7 +6,7 @@
         "date_of_birth": "1973-03-26",
         "place_of_birth": "Graham, Texas, USA",
         "relationships": "Married for 20 years with 2 adult daughters (19 and 20)",
-        "biography": "I'm a Texan living in the UK for over 18 years. I currently work as an Service Operations manager for a company called <a href=\"http://cognitoIQ.com\" target=\"_blank\">Cognito</a>.<p> My strongest technical skills lie in problem solving and building new systems from scratch, often with emerging and unfamiliar technologies, teaching myself as I go.</p><p>I also volunteer as a trustee and webmaster of <a href=\"http://druidnetwork.org\" target=\"_blank\">The Druid Network</a> - a registered charity in English and Wales. All the while juggling coursework for an <a href=\"http://www.open.ac.uk/courses/qualifications/q72\" target=\"_blank\">Open University degree</a>.",
+        "biography": "I'm a Texan living in the UK for over 19 years. I currently work as a Senior Deployment Architect for a company called <a href=\"http://cognitoIQ.com\" target=\"_blank\">Cognito</a>.<p> My strongest technical skills lie in problem solving and building new systems from scratch, often with emerging and unfamiliar technologies, teaching myself as I go.</p><p>I also volunteer as a trustee and webmaster of <a href=\"http://druidnetwork.org\" target=\"_blank\">The Druid Network</a> - a registered charity in English and Wales. All the while juggling coursework for an <a href=\"http://www.open.ac.uk/courses/qualifications/q72\" target=\"_blank\">Open University degree</a>.",
         "current_location": {
             "street": "********",
             "housenumber": 0,
@@ -62,7 +62,7 @@
             "specification": "Senior Deployment Architect (DevOps)",
             "location": "Newbury, Berkshire, United Kingdom",
             "level": "Fulltime",
-            "description": "Although my titles seems to change on an amusingly regular basis, I'm always responsible for: <ul><li>Deploying and maintaining networks, server infrastructure, platforms, and software applications for new and existing projects.<li>Working in a DevOps capacity to streamline deployments, safeguard operational integrity, and to manage the necessary tooling to allow rapid and automated builds.<li>Providing in and out of hours, third-line support for the entire infrastructure, platform and software estate.<li>Providing expertise in monitoring and tuning of: Operating systems, Apache, JBoss, Tomcat, VMWare ESXi, MySQL, Informix, etc<li>Designing and building an advanced custom monitoring stack.",
+            "description": "Although my titles seems to change on an amusingly regular basis, I'm always responsible for: <ul><li>Deploying and maintaining networks, server infrastructure, platforms, and software applications for new and existing projects.<li>Working in a DevOps capacity to streamline deployments, safeguard operational integrity, and to manage the necessary tooling to allow automated builds and continuous delivery.<li>Providing in and out of hours, third-line support for the entire infrastructure, platform and software estate.<li>Providing expertise in monitoring and tuning of: Operating systems, Apache, JBoss, Tomcat, VMWare ESXi, MySQL, Informix, etc<li>Designing and building an advanced custom monitoring stack.",
             "tech": "Redhat Linux, Windows, MySQL, SQL Server, Tomcat, JBoss, Puppet, Liquibase, Nagios/Icinga, CollectD, InfluxDB, Grafana, StatD, Pagerduty, Observium",
             "start_date": "2011-05-01",
             "end_date": null,
@@ -193,7 +193,7 @@
         },
         {
             "title": "Technology and Geekery",
-            "description": "I first laid my hands on a computer - A Commodore 64 - in 1985. In a few days I'd written my first programme in Basic and I instantly knew this was what I was going to do with my life. A decade later, after moving to England and getting my permanent residency, I was trained as an Informix 4GL programmer.  While I was good at this, my passion was for doing the more complex systems administration tasks and when Linux starting becoming more popular I was hooked.  I've worked as some form of systems administrator ever since and eventually ended up managing other sys admins. It's paid the bills.  Aside from that I'm a fan of RPG gaming.  I think I've played every Zelda and Final Fantasy ever made including some bizarre Japanese ones.  I also like simulated worlds.  Second Life was a huge part of my life for years and I still have some very special friends from that time.  Minecraft then took over - before it became the abode of 10 year olds. I even ran my own server for a time but now it's mostly <a href=\"http://www.awencraft.net/\" target=\"_blank\">closed down</a>", 
+            "description": "I first laid my hands on a computer - A Commodore 64 - in 1985. In a few days I'd written my first programme in Basic and I instantly knew this was what I was going to do with my life. A decade later, after moving to England and getting my permanent residency, I was trained as an Informix 4GL programmer.  While I was good at this, my passion was for doing the more complex systems administration tasks and when Linux starting becoming more popular I was hooked.  I've worked as some form of systems administrator ever since and eventually ended up managing other sys admins. It's paid the bills.  This year, I'm concentrating on metric collection tools such as CollectD, InfluxDB, and Grafana, along with various DevOps technologies such as CoreOS, Docker, Vagrant, and possibly Puppet and Elasticsearch.",
 			"image": "tech.png"
         },
         {
@@ -213,7 +213,7 @@
         },
         {
             "title": "Pagan Druidry",
-            "description": "Ah religion. A dirty work nowadays and not something people talk about in depth. This is the specific one I practice. Don't worry! I won't be trying to convert anyone. Nor will anyone catch me dancing naked around Stonehenge.  Have you been there?  It's always far too cold and windy for that nonsense!  ;-) To me, Druidry is simply a pathway to living with honour and intent, fiercely respecting and defending all of nature, the spirits of place, the gods, and my ancestors. It's also an outlet to sacrifice my time and energy in the service to my community.",
+            "description": "Ah. Religion. A dirty work nowadays and not something people talk about in depth. This is the specific one I practice. Don't worry! I won't be trying to convert anyone. Nor will anyone catch me dancing naked around Stonehenge.  Have you been there?  It's always far too cold and windy for that nonsense!  ;-) To me, Druidry is simply a pathway to living with honour and intent, fiercely respecting and defending all of nature, the spirits of place, the gods, and my ancestors. It's also an outlet to sacrifice my time and energy in the service to my community.",
 			"image": "awen.png"
         }
     ]
