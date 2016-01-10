@@ -63,7 +63,6 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
 .jumbotron {
 	background: no-repeat center right fixed; /* url(images/background.jpg) */
-	/*background-image: url(images/tower_scope_animation.gif); */
 	
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 

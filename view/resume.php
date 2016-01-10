@@ -44,9 +44,9 @@
 			// show an different picture per day, loop through array
 			$header_images = array(
 				array('source' => VIEW_PATH.'images/coffee_animation.gif', 'position' => 'center center'),
-				array('source' => VIEW_PATH.'images/hotdog_stand_animation.gif', 'position' => 'center center'),
+				array('source' => VIEW_PATH.'images/strider.gif', 'position' => 'center center'),
 				array('source' => VIEW_PATH.'images/metro_animation.gif', 'position' => 'center right'),
-				array('source' => VIEW_PATH.'images/tower_scope_animation.gif', 'position' => 'center right'),
+				array('source' => VIEW_PATH.'images/mad_max.gif', 'position' => 'center right'),
 				array('source' => VIEW_PATH.'images/taxi_drive_by_animation.gif', 'position' => 'center center'),
 				array('source' => VIEW_PATH.'images/window_rain_animation.gif', 'position' => 'bottom right'),
 				array('source' => VIEW_PATH.'images/highway_animation.gif', 'position' => 'center right')
@@ -60,7 +60,7 @@
 			}
 		?>
 	
-		<div id="top" class="jumbotron" data-src="<?= $current_header['source']; ?>" data-position="<?= $current_header['position']; ?>">
+		<div id="top" class="jumbotron" data-speed="4" data-type="background" data-src="<?= $current_header['source']; ?>" data-position="<?= $current_header['position']; ?>">
 			<div class="container">
 				<h1><?= $profile->full_name; ?></h1>
 				<p class="lead">Interactive CV and Homepage</p>
@@ -141,6 +141,7 @@
 		<!-- Bootstrap core JavaScript -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript" src="<?= VIEW_PATH; ?>js/script.js"></script>
+		<script type="text/javascript" src="<?= VIEW_PATH; ?>js/parallax.min.js"></script>
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 <!-- Piwik -->

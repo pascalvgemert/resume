@@ -12,8 +12,9 @@
 				<a href="mailto:<?= strrev($contact->email); ?>">
 					<span class="icon icon-email"></span>
 					<span style="unicode-bidi:bidi-override; direction: rtl;">
-						<?= strrev($contact->email); ?>
+						<?= strrev($contact->email); ?><br>
 					</span>
+<small><small>PGP Fingerprint: D267 92C4 1341 4FE4 ADE5 4334 9DED 40D6 9D83 D1E9</small></small>
 				</a>
 			</li>
 			<li>
@@ -49,8 +50,8 @@
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
 	<div id="legend">
-       Know, O Prince, that between the years when the oceans drank Microsoft and the gleaming Windows, and the rise of Ubuntu, there was an Age undreamed of, when shining servers lay spread across the world like blue mantles beneath the stars - Debian, FreeBSD, Slackware, AIX, Solaris with its dark-haired women and towers of spider-haunted mystery, SuSE with its chivalry, Caldera that bordered the pastoral lands of SCO, OpenBSD with its shadow-guarded tombs, RedHat whose Sys Admins wore steel and silk and gold. But the proudest kingdom of the world was OS X, reigning supreme in the dreaming west. Hither came Chris the Texan, little-haired, sullen-eyed, MacBook in hand, a builder, a programmer, an admin, with gigantic melancholies and gigantic mirth, to tread the jewelled server rooms of the earth under his sandled feet.<br />-- By tradition, this has been on every home page I've ever had.
+       Know, O Prince, that between the years when the oceans drank Microsoft and the gleaming Windows, and the rise of "The Cloud", there was an Age undreamed of, when shining servers lay spread across the world like blue mantles beneath the stars - Debian, FreeBSD, Slackware, AIX, Solaris with its dark-haired women and towers of spider-haunted mystery, SuSE with its chivalry, Caldera that bordered the pastoral lands of SCO, OpenBSD with its shadow-guarded tombs, RedHat whose Sys Admins wore steel and silk and gold. But the proudest kingdom of the world was Ubuntu, reigning supreme in the dreaming west. Hither came Chris the Texan, little-haired, sullen-eyed, MacBook in hand, a builder, a programmer, a sys-admin, with gigantic melancholies and gigantic mirth, to tread the jewelled server rooms of the earth under his sandled feet.<br />-- By tradition, this has been on every home page I've ever had.
 	</div>
 <span id="footnote"><br>We did not invent the algorithm. The algorithm consistently finds Jesus. The algorithm killed Jeeves. <br>The algorithm is banned in China. The algorithm is from Jersey. The algorithm constantly finds Jesus.<br>This is not the algorithm. This is close.</span><br />
-<span id="footnote">This site was created by <a href="https://chris.funderburg.me/">Chris Funderburg</a>. Chris Funderburg is also the webmaster and designer of <a href="http://druidnetwork.org/" target="_blank">The Druid Network</a>, the author and designer of <a href="http://carefoneservices.com/" target="_blank">Carefone Services</a>, and as an experiment he writes for <a href="http://darkops.info" target="_blank">Dark Operations</a>.  </span>
+<span id="footnote">This site was created by <a href="https://chris.funderburg.me/">Chris Funderburg</a>. Chris Funderburg is also the webmaster and designer of <a href="http://druidnetwork.org/" target="_blank">The Druid Network</a>, and is the author and designer of <a href="http://carefoneservices.com/" target="_blank">Carefone Services</a>.  </span>
 </div>

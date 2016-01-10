@@ -8,7 +8,7 @@ Will be to arrive where we started and know the place for the first time.&rdquo;
 
 <hr />
 
-<h3>Educations</h3>
+<h3>Education</h3>
 
 <?php if(count($educations) > 0) { ?>
 
@@ -57,7 +57,7 @@ Will be to arrive where we started and know the place for the first time.&rdquo;
 
 <hr />
 
-<h3>Careers</h3>
+<h3>Career</h3>
 
 <?php if(count($careers) > 0) { ?>
 

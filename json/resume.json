@@ -6,7 +6,7 @@
         "date_of_birth": "1973-03-26",
         "place_of_birth": "Graham, Texas, USA",
         "relationships": "Married for 20 years with 2 adult daughters (19 and 20)",
-        "biography": "I'm a Texan living in the UK for over 19 years. I currently work as a Senior Deployment Architect for a company called <a href=\"http://cognitoIQ.com\" target=\"_blank\">Cognito</a>.<p> My strongest technical skills lie in problem solving and building new systems from scratch, often with emerging and unfamiliar technologies, teaching myself as I go.</p><p>I also volunteer as a trustee and webmaster of <a href=\"http://druidnetwork.org\" target=\"_blank\">The Druid Network</a> - a registered charity in English and Wales. All the while juggling coursework for an <a href=\"http://www.open.ac.uk/courses/qualifications/q72\" target=\"_blank\">Open University degree</a>.",
+        "biography": "I'm a Texan living in the UK for over 19 years. I currently work as a Senior Deployment Architect for a company called <a href=\"http://cognitoIQ.com\" target=\"_blank\">Cognito</a>.<p> My strongest technical skills lie in problem solving and building new systems from scratch, often with emerging technologies, learning them as I go.</p><p>I also volunteer as a trustee and webmaster of <a href=\"http://druidnetwork.org\" target=\"_blank\">The Druid Network</a> - a registered charity in English and Wales. All the while juggling coursework for an <a href=\"http://www.open.ac.uk/courses/qualifications/q72\" target=\"_blank\">Open University degree</a>.",
         "current_location": {
             "street": "********",
             "housenumber": 0,
@@ -29,10 +29,10 @@
         "phone": "********",
         "skype": "funderbc",
         "website": "https://chris.funderburg.me/",
-        "twitter": "http://twitter.com/TheSoundODrums",
+        "twitter": "https://twitter.com/TheSoundODrums",
         "facebook": "https://www.facebook.com/bocan",
         "ello": "https://ello.co/bocan",
-        "linkedin": "http://uk.linkedin.com/in/bocan/"
+        "linkedin": "https://uk.linkedin.com/in/bocan/"
     },
     "educations": [
         {
@@ -40,7 +40,7 @@
             "specification": "Environmental Management and Technology</a>",
             "location": "Distance Learning assessed by coursework and supervised exams",
             "level": "<a href=\"http://www.open.ac.uk/courses/qualifications/q72\" target=\"_blank\">BSc (Honours)",
-            "description": "<b>Modules:</b><br /><ul><li>2011 - Environment: journeys through a changing world (U116)</li><li>2012 - Introducing the social sciences - part one (DD131)</li><li>2012 - Introducing the social sciences - part two (DD132)</li><li>2013 - Exploring Science (S104)</li><li>2013 - Energy and sustainability (T213)</li><li>2014 - Environmental management 1 (T219) - <i>In Progress</i></li><li>2015 - Environment: sharing a dynamic planet (DST206) - <i>Next</i></li></ul>I started work on this degree during a brief time between jobs and haven't stopped since. Not entirely sure if I'll ever really change my career path but I've a deep and abiding interest in the topic.",
+            "description": "<b>Modules:</b><br /><ul><li>2011 - Environment: journeys through a changing world (U116)</li><li>2012 - Introducing the social sciences - part one (DD131)</li><li>2012 - Introducing the social sciences - part two (DD132)</li><li>2013 - Exploring Science (S104)</li><li>2013 - Energy and sustainability (T213)</li><li>2014 - Environmental management 1 (T219)</li><li>2015 - Environment: sharing a dynamic planet (DST206) - <i>Starting Soon</i></li></ul>I started work on this degree during a brief time between jobs in 2011 and haven't stopped since. I'm not entirely sure if I'll ever change my career path but I've a deep and abiding interest in the topic and I enjoy the learning aspect.",
             "start_date": "2011-10-01",
             "end_date": "2018-04-01",
             "completed": false
@@ -89,7 +89,7 @@
             "end_date": "2011-03-01"
         },
         {
-            "title": "SpinVox",
+            "title": "<a href='http://web.archive.org/web/20090330050314/http://www.spinvox.com/' target='_blank'>SpinVox</a>",
             "specification": "Infrastructure and Deployment Manager",
             "location": "Maidenhead and Marlow, Berkshire, United Kingdom",
             "level": "Fulltime",
@@ -193,7 +193,7 @@
         },
         {
             "title": "Technology and Geekery",
-            "description": "I first laid my hands on a computer - A Commodore 64 - in 1985. In a few days I'd written my first programme in Basic and I instantly knew this was what I was going to do with my life. A decade later, after moving to England and getting my permanent residency, I was trained as an Informix 4GL programmer.  While I was good at this, my passion was for doing the more complex systems administration tasks and when Linux starting becoming more popular I was hooked.  I've worked as some form of systems administrator ever since and eventually ended up managing other sys admins. It's paid the bills.  This year, I'm concentrating on metric collection tools such as CollectD, InfluxDB, and Grafana, along with various DevOps technologies such as CoreOS, Docker, Vagrant, and possibly Puppet and Elasticsearch.",
+            "description": "I first laid my hands on a computer - A Commodore 64 - in 1985. In a few days I'd written my first programme in Basic and I instantly knew this was what I was going to do with my life. A decade later, after moving to England and getting my permanent residency, I was trained as an Informix 4GL programmer.  While I was good at this, my passion was for doing the more complex systems administration tasks and when Linux starting becoming more popular I was hooked.  I've worked as some form of systems administrator ever since and eventually ended up managing other sys admins. It's paid the bills.  This year, I'm concentrating on learning metric collection tools such as CollectD, InfluxDB, and Grafana, along with various DevOps technologies such as CoreOS, Docker, Vagrant, and possibly Puppet and Elasticsearch.",
 			"image": "tech.png"
         },
         {
@@ -203,12 +203,12 @@
         },
         {
             "title": "Fitness and Diet",
-            "description": "Ladies and gentlemen, I am now and have been for some time: a fat man. There's no getting away from that.  I became lazy and complacent in my mid 20's. During my entire 30's I did no exercise and let my fitness just waste away.  However, in the Summer of 2014, at the age of 41, with painful joints and possibly on the verge of getting diabetes, on the top of a mountain in the Scottish Highlands, I made a decision to lose just a bit more than 4 stone (56 lbs) in one year. To that end, I count calories (no fad diets!), avoid processed food in favour of fresh and home-made, walk or cycle or run every single day, and immensely enjoy a bit of yoga at a <a target=\"_blank\" href=\"http://www.wildlotus.co.uk\">new studio</a> in town. I won't lie - it's all bloody hard work.  Failure however isn't even a possibility and a current goal is to achieve 3/4 of my target weight loss by the spring of 2015 and then cycle the length of Wales from Chepstow to Holyhead. To date I've lost around 25 lbs and I'm running a weekly 5k Parkrun race at 37 minutes.  I'd like to get under 25 minutes by this summer!",
+            "description": "Ladies and gentlemen, I am now and have been for some time: a fat man. There's no getting away from that.  I became lazy and complacent in my mid 20's. During my entire 30's I did no exercise and let my fitness just waste away.  However, in the Summer of 2014, at the age of 41, with painful joints and possibly on the verge of getting diabetes, on the top of a mountain in the Scottish Highlands, I made a decision to lose just a bit more than 4 stone (56 lbs) over the next two years. To that end, I count calories (no fad diets!), avoid processed food in favour of fresh and home-made, walk or cycle or run every single day, and immensely enjoy a bit of yoga at a <a target=\"_blank\" href=\"http://www.wildlotus.co.uk\">new studio</a> in town. I won't lie - it's all bloody hard work.  Failure however isn't even a possibility and a current goal is to achieve 3/4 of my target weight loss by the spring of 2016 and then cycle the length of Wales from Chepstow to Holyhead. To date I've lost around 25 lbs and I'm running a weekly 5k Parkrun race at 37 minutes.  I'd like to get under 25 minutes by this winter!",
 			"image": "fitness.png"
         },
         {
             "title": "Environmental Studies, Politics, and Activism",
-            "description": "Ideologically I'm a <a href=\"http://en.wikipedia.org/wiki/Libertarian_socialism\" target=\"_blank\">social libertarian</a> almost bordering on anarchist. Politically, in the UK, although I can't vote, I strongly support the <a href=\"http://greenparty.org.uk/\" target=\"_blank\">Green Party</a> and share their values and ethics. I regularly give to organisations that work to protect and conserve the environment, promote peace, encourage equality, or support social and environmental justice such as: <a href=\"http://www.greenpeace.org.uk/\" target=\"_blank\">Greenpeace</a>, <a href=\"http://www.woodlandtrust.org.uk/\" target=\"_blank\">The Woodland Trust</a>, <a href=\"http://www.worldwildlife.org/home.html\" target=\"_blank\">World Wildlife Fund</a>, and <a href=\"http://www.foe.co.uk/\" target=\"_blank\">Friends of The Earth</a>. Locally I support <a href=\"http://www.newbury.cats.org.uk/\" target=\"_blank\">Newbury Cat's Protection</a> by sponsoring a pen in memory of our cat Piper.",
+            "description": "Ideologically I'm a <a href=\"http://en.wikipedia.org/wiki/Libertarian_socialism\" target=\"_blank\">social libertarian</a> almost bordering on anarchist. Politically, in the UK, I strongly support the <a href=\"http://greenparty.org.uk/\" target=\"_blank\">Green Party</a> and share their values and ethics - but in fairness I support any political party that acts with compassion whist respecting basic human dignity as opposed to being in the pockets of big business. I regularly give to organisations that work to protect and conserve the environment, promote peace, encourage equality, or support social and environmental justice such as: <a href=\"http://www.greenpeace.org.uk/\" target=\"_blank\">Greenpeace</a>, <a href=\"http://www.woodlandtrust.org.uk/\" target=\"_blank\">The Woodland Trust</a>, <a href=\"http://www.worldwildlife.org/home.html\" target=\"_blank\">World Wildlife Fund</a>, and <a href=\"http://www.foe.co.uk/\" target=\"_blank\">Friends of The Earth</a>. Locally I support <a href=\"http://www.newbury.cats.org.uk/\" target=\"_blank\">Newbury Cat's Protection</a> by sponsoring a pen in memory of our cat Piper.",
 			"image": "eco.png"
         },
         {
