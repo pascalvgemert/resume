@@ -25,7 +25,7 @@
 		<!-- Bootstrap core CSS -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
                 <link href='https://fonts.googleapis.com/css?family=Eagle+Lake' rel='stylesheet' type='text/css'>
-		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="<?= VIEW_PATH; ?>style.css" rel="stylesheet" />
 		
 		<link rel="shortcut icon" href="<?= BASE; ?>favicon.ico" type="image/x-icon" />
@@ -139,10 +139,10 @@
 		<?php include(VIEW_INCLUDE_PATH.'sections/upgrade.inc.php'); ?>
 		
 		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script type="text/javascript" src="<?= VIEW_PATH; ?>js/script.js"></script>
 		<script type="text/javascript" src="<?= VIEW_PATH; ?>js/parallax.min.js"></script>
-		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 <!-- Piwik -->
 <script type="text/javascript">
