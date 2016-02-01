@@ -12,11 +12,17 @@
 		<meta name="author" content="Chris Funderburg - http://chris.funderburg.me" />	
 		<meta name="description" content="IT Infrastructure Manager · Dad · Old School Geek · Environmentalist · Gardener · Yogi · Cyclist · University Student · Pagan Druid · Adventurer · Seeker" />
 		<meta name="keywords" content="Funderburg,Chris Funderburg,Bocan,cycling,bicycle,pagan,druid,sysadmin,infrastructure,release,manager,network,engineer,home page,genealogy,family tree,study,environment,yoga,yogi" />
-		<meta property="og:title" content="Chris Funderburg : Interactive CV and Homepage" />
+		<meta property="og:title" content="Chris Funderburg : Homepage and Interactive CV" />
 		<meta property="og:type" content="website" />
 		<meta property="og:image" content="https://chris.funderburg.me/images/me.jpg" />
 		<meta property="og:url" content="https://chris.funderburg.me/" />
 		<meta property="og:description" content="The home page of Chris Funderburg : IT Infrastructure Manager · Dad · Old School Geek · Environmentalist · Gardener · Yogi · Cyclist · University Student · Pagan Druid · Adventurer · Seeker" />
+
+		<meta property="twitter:title" content="Chris Funderburg : Homepage and Interactive CV" />
+		<meta property="twitter:url" content="https://chris.funderburg.me/" />
+		<meta property="twitter:card" content="summary" />
+
+
 		<meta name="robots" content="index, follow" />
 		<meta name="revisit-after" content="14 days" />
 			
@@ -63,7 +69,7 @@
 		<div id="top" class="jumbotron" data-speed="4" data-type="background" data-src="<?= $current_header['source']; ?>" data-position="<?= $current_header['position']; ?>">
 			<div class="container">
 				<h1><?= $profile->full_name; ?></h1>
-				<p class="lead">Interactive CV and Homepage</p>
+				<p class="lead">Homepage and Interactive CV</p>
 			</div>
 			
 			<div class="overlay"></div>
