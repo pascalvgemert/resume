@@ -3,7 +3,7 @@ body { background: #F3EFE0; font-size: 15px; line-height: 1.64; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px; }
 h1,h4 { font-weight: 700; margin-bottom: 10px; }
-h2,h3 { font-weight: 300; color: #22A39F; }
+h2,h3 { font-weight: 300; color: #2274a3; }
 h2 { font-size: 54px; text-align: center; }
 h3 { font-size: 28px; }
 
@@ -16,7 +16,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .project-referal { margin-top: 40px; }
 .project-referal p { font-style: italic; color: #999999; }
 
-.btn-primary { background-color: #22A39F; border-color: #1c8784; }
+.btn-primary { background-color: #2274a3; border-color: #1c8784; }
 .btn-primary:hover { background-color: #1c8784;  border-color: #1c8784; }
 
 .icon { display: inline-block; background: url(images/sm_icon_sprite.png) no-repeat; height: 32px; width: 32px; }
@@ -26,7 +26,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .icon.icon-email { background-position: 0px -96px; }
 
 .jumbotron {
-	background: no-repeat center right fixed url(images/background.jpg);
+	background: no-repeat center right fixed url(images/background_friends.JPG);
 
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
@@ -38,8 +38,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	-o-background-size: cover;
 	background-size: cover;
 	
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale')";
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background_friends.JPG', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background_friends.JPG', sizingMethod='scale');
 	
 	margin-bottom: 0px;
 	padding: 0px;
@@ -53,7 +53,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	right: 30px;
 	top: 30px;
 }*/
-.jumbotron .overlay { background-color: #22A39F; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.75; filter:alpha(opacity=75); z-index: 2; }
+.jumbotron .overlay { background-color: #2274a3; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.75; filter:alpha(opacity=75); z-index: 2; }
 
 .jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
 .jumbotron .container > * { text-align: center; color: #FFFFFF; }
@@ -81,7 +81,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .navbar .nav > li { display: block; float: none; height: 80px; } 
 .navbar .nav > li a { display: block;  height: 80px; text-align: center; padding-top: 30px; font-weight: 600; color: #FFFFFF; }
 .navbar .nav > li a:hover, .navbar .nav > li a:focus { color: #999999; }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: #22A39F; color: #FFFFFF; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: #2274a3; color: #FFFFFF; }
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar { background: #222222; }
 
@@ -97,7 +97,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #experiences .experience { margin-bottom: 20px; }
 #experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
 #experiences .experience .experience-details { display: block; margin-top: 6px; }
-#experiences .experience .experience-details * { color: #22A39F; }
+#experiences .experience .experience-details * { color: #2274a3; }
 #experiences .experience .experience-details .seperator { color: #BCBCBC; }
 
 #abilities ul > li { min-height: 30px; padding: 3px 0px; }
@@ -113,7 +113,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-#abilities ul > li .ability-score .glyphicon.filled { color: #22A39F; }
+#abilities ul > li .ability-score .glyphicon.filled { color: #2274a3; }
 
 #abilities ul > li:hover .ability-score .glyphicon { margin-left: 2px; } 
 
@@ -164,7 +164,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
     width: 100%;
 }
 #projects figure .icon { 
-	background: #22A39F;
+	background: #2274a3;
 	position: absolute;
 	top: 0px;
 	right: 0px;
@@ -273,7 +273,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 /*---------------*/
 
 figure.effect {
-	background: #22A39F;
+	background: #2274a3;
 	color: #FFF;
 }
 
