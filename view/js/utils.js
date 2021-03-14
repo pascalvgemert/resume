@@ -126,7 +126,7 @@ function readCareerCSV(csvText)
 
         var courseLocationSpan11 = document.createElement('span')
         courseLocationSpan11.setAttribute('class','seperator')
-        courseLocationSpan11.textContent('|')
+        courseLocationSpan11.textContent = '|'
         var courseLocationSpan22 = document.createElement('span')
         courseLocationSpan22.setAttribute('class','link')
         var courseLocationSpan33 = document.createElement('span')
@@ -139,7 +139,7 @@ function readCareerCSV(csvText)
 
         courseLocationSpan22.appendChild(courseLocationSpan33)
         courseLocationSpan22.appendChild(linkTag)
-        courseLocationSpan1.appendChild(courseLocationSpan2)
+        courseLocationSpan1.appendChild(courseLocationSpan22)
         courseLocation.appendChild(courseLocationSpan11)
         courseLocation.appendChild(courseLocationSpan22)
 
