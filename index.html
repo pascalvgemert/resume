@@ -24,6 +24,9 @@
 		
 		<link rel="shortcut icon" href="letter-k-16.ico" type="image/x-icon" />
 		<link rel="icon" href="letter-k-16.ico" type="image/x-icon" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="view/js/utils.js"></script>
+        <script type="text/javascript" src="view/js/jquery.csv.js"></script>
 		
 		<!--[if lt IE 9]>
 			<script src="/view/js/html5shiv.js"></script>
@@ -141,6 +144,21 @@
 </div> -->
 
 <h3>Educations</h3>
+
+<script type="text/javascript" id="readEducations">
+var filePath = 'https://raw.githubusercontent.com/krishnakartik1/krishnakartik1.github.io/master/view/css/animate.css'
+
+csvText = readTextFile(filePath)
+
+function readEducationCSV(csvText)
+{
+	var data = $.csv.toObjects(csvText);
+    console.log(data);
+}
+
+readEducationCSV(csvText)
+
+</script>
 
 
 <div class="experiences">
@@ -1947,8 +1965,9 @@
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal -->		
 		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		
 		<script type="text/javascript" src="view/js/script.js"></script>
+        
 		<script type="text/javascript" src="view/js/bootstrap.min.js"></script>
 		
 		<!-- Google Analytics -->
