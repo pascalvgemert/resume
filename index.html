@@ -160,7 +160,7 @@
 	</script>
 
 					
-	<div class="experience row">
+	<!-- <div class="experience row">
 		<div class="col-md-4">
 			<h4>Penn University</h4>
 			<p class="experience-period">
@@ -223,7 +223,7 @@
 				</span>
 			</p>
 		</div>
-	</div>
+	</div> -->
 	
 	
 </div>
@@ -235,7 +235,16 @@
 <h3>Careers</h3>
 
 
-<div class="experiences">
+<div class="experiences" id='career-experience'>
+
+	<script type="text/javascript" id="readEducations">
+		var filePath = 'https://raw.githubusercontent.com/krishnakartik1/krishnakartik1.github.io/develop/view/assets/careers.csv'
+		
+		csvText = readTextFile(filePath)
+		
+		var check = readCareerCSV(csvText)
+		
+	</script>
 
 					
 	<div class="experience row">
