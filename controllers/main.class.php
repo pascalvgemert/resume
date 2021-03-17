@@ -3,7 +3,7 @@
 	namespace Controllers;
 	
 	use \Libraries\ORM as ORM;
-	use \Libraries\Router as Router;
+	use \Libraries\Router as 
 	
 	/* LOAD DEPENDECIES */
 	require_once('models/basemodel.class.php');
